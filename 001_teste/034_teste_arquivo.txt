@@ -1,0 +1,3 @@
+Testando um arquivo de texto.
+Estudando C.
+Linguagem próxima de máquina.
