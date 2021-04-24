@@ -14,7 +14,10 @@ typedef struct {
     char nome[200];
     Data datNasc;
 } Aluno;
+
+
 Aluno aluno;
+
  
 int main() { 
     setlocale(LC_ALL,"portuguese");
@@ -44,3 +47,21 @@ int main() {
     system("pause");
     return(0);
 }
+
+/*
+ O código do aluno é: 0
+ O nome do aluno é: NULL
+ A data de nascimento do aluno é: 0 / 0 / 0
+
+ Digite o código do aluno: 123
+ Digite o nome do aluno: bob
+ Digite o dia do nascimento do aluno: 9
+ Digite o mês do nascimento do aluno: 11
+ Digite o ano do nascimento do aluno: 2013
+
+ O código do aluno é: 123
+ O nome do aluno é: bob
+ A data de nascimento do aluno é: 9 / 11 / 2013
+
+*/
+
