@@ -11,6 +11,7 @@ int main() {
 
    /* alocar memoria dinamicamente */
    descricao = malloc( 30 * sizeof(char) );
+   printf("Descricao: %s\n", descricao );
 	
    if( descricao == NULL ) {
       fprintf(stderr, "Erro - inapto a alocar memoria requerida\n");
@@ -21,6 +22,7 @@ int main() {
 	
    /* suponha voce quer armazenar descricao maior */
    descricao = realloc( descricao, 100 * sizeof(char) );
+   printf("Descricao: %s\n", descricao );
 	
    if( descricao == NULL ) {
       fprintf(stderr, "Erro - inapto a alocar memoria requerida\n");
@@ -37,6 +39,9 @@ int main() {
 }
 
 /* 
+Descricao: ÓX?
+Descricao: Zara ali uma estudante DPS.
 Nome = Zara Ali
 Descricao: Zara ali uma estudante DPS.Ela esta na 10 serie
+
 */
