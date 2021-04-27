@@ -1,11 +1,16 @@
-//Programa imprime o valor da variável num
+//Programa imprime o valor da variï¿½vel num
 #include <stdio.h> 
+
 int num;
 num = 20;
-int main ()
-{
-  int num;  
-  num = 10;
-  printf("O valor da variavel num: %d", num); 
-  return 0;
+
+int main () {
+    int num;  // experimentar comentar  
+    num = 10; // experimentar comentar
+    printf("O valor da variavel num: %d", num); 
+    return 0;
 }
+
+/* 
+O valor da variavel num: 10
+*/
