@@ -8,7 +8,7 @@ int main() {
     scanf("%d", &numero);
 
     // True se o resto for 0
-    if  (numero%2 == 0) {
+    if (numero%2 == 0) {
         printf("%d eh um inteiro par.",numero);
     }
     else {
