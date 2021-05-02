@@ -56,7 +56,6 @@ int main() {
     printf("%d<<2 = %d\n", c, c<<2);
     printf("%d<<3 = %d\n", c, c<<3);
     
-
     return 0;
 }
 
