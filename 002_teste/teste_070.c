@@ -7,10 +7,10 @@ int main() {
     int numero1, numero2, soma;
 
     printf("Digite dois numeros:\n");
-    scanf("%d %d",&numero1, &numero2);
+    scanf("%d %d", &numero1, &numero2);
 
     soma = adicionarNumeros(numero1, numero2);        // chama funcao
-    printf("soma = %d",soma);
+    printf("soma = %d", soma);
 
     return 0;
 }
