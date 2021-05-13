@@ -1,0 +1,41 @@
+#include <stdio.h>
+
+
+int receberInteiro();
+
+int main() {
+    int numero, indice, flag = 0;
+
+   // nenhum argumento eh passed
+    numero = receberInteiro();    
+
+    for (indice = 2; indice <= numero/2; ++indice) {
+        if (numero % indice==0) {
+            flag = 1;
+            break;
+        }
+    }
+
+    if (flag == 1)
+        printf("%d nao eh um numero primo.", numero);
+    else
+        printf("%d eh um numero primo.", numero);
+
+    return 0;
+}
+
+// retorna inteiro digitado pelo usuario
+int receberInteiro() {
+    int numero;
+
+    printf("Digite um inteiro positivo:\n");
+    scanf("%d",&numero);
+
+    return numero;
+}
+
+/* 
+Digite um inteiro positivo:
+11
+11 eh um numero primo.
+*/
