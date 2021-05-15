@@ -21,7 +21,7 @@ int main() {
     return 0;
 }
 
-// int eh returned from the function
+// int eh returnado da funcao
 int checarNumeroPrimo(int n) {
     int indice;
 
