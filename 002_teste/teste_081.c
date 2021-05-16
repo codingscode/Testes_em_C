@@ -51,7 +51,15 @@ Digite um inteiro positivo:
 ou
 
 Digite um inteiro positivo:
-19
-19 = 2 + 17
+20
+20 = 3 + 17
+20 = 7 + 13
+
+ou
+
+Digite um inteiro positivo:
+3
+3 nao pode ser expressado como a soma de dois numeros primos.
+
 
 */
