@@ -1,13 +1,21 @@
 // Exemplo com strings
 #include <stdio.h>
-
 #include <string.h>  // arquivo de cabeçalho para trabalhar com strings
 
+
 int main() {
-   char Nome[30];  // declara uma string que poderá armazenar até 29 caracteres !! 
+   char Nome[2];  // declara uma string que podera armazenar ate 12 caracteres !! 
+   char cumprimento = 'k';
+
+   strcpy(Nome, "Jose da Silva");  // atribui "Jose da Silva" para a variavel Nome
    
-   strcpy(Nome, "Jose da Silva");  // atribui "Jose da Silva" para a variável Nome
-   printf("O funcionário %s foi tranferido", Nome);  // no lugar de %s aparecerá o 
-						     // conteúdo da variável Nome      
-   
+
+   printf("O funcionario %s foi tranferido\n", Nome);  // no lugar de %s aparecera o conteudo da variavel Nome 
+   printf("cumprimento : %c \n", cumprimento);
+   return (0);
 }
+
+/* 
+O funcionario Jose da Silva foi tranferido
+cumprimento : k
+*/
