@@ -8,8 +8,12 @@ int main() {
    int area;  
   
    area = LENGTH * WIDTH;
-   printf("value of area : %d", area);
+   printf("valor de area : %d", area);
    printf("%c", NEWLINE);
 
    return 0;
 }
+
+/* 
+valor de area : 50
+*/
