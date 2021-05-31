@@ -1,4 +1,4 @@
-// Program to add two distances (pe-polegada)
+// Programa para adicionar duas distancias (pe-polegada)
 #include <stdio.h>
 
 
@@ -23,12 +23,12 @@ int main() {
     printf("Digite polegada: ");
     scanf("%f", &dist2.polegada);
 
-    // adding pe
+    // adicionando pe
     soma.pe = dist1.pe + dist2.pe;
-    // adding inches
+    // adicionando polegadas
     soma.polegada = dist1.polegada + dist2.polegada;
 
-    // changing to pe if polegada is greater than 12
+    // mudando para pe se polegada eh maior que 12
     while (soma.polegada >= 12) {
         ++soma.pe;
         soma.polegada = soma.polegada - 12;
