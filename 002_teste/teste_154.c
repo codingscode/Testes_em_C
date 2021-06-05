@@ -9,7 +9,7 @@ int main() {
    if ((fponteiro = fopen("./teste_154 arquivo.txt","r")) == NULL){
        printf("Erro! Ao abrir arquivo");
 
-       // Program exits if the file pointer returns NULL.
+       // Programa sai se o ponteiro do arquivo retorna NULL
        exit(1);
    }
 
