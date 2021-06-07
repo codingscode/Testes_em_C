@@ -1,0 +1,9 @@
+
+Nome: simon 
+Marcas=2 
+
+Nome: vicente 
+Marcas=1 
+
+Nome: ferdinand 
+Marcas=5 
