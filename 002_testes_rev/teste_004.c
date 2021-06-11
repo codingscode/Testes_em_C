@@ -14,5 +14,8 @@ int main() {
 }
 
 /* 
-
+Digite dois numeros um abaixo do outro:
+3
+4
+Produto = 12.000
 */
