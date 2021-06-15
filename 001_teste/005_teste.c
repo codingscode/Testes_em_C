@@ -1,15 +1,15 @@
 #include <stdio.h>
 
-#define LENGTH 10   
-#define WIDTH  5
-#define NEWLINE '\n'
+#define COMPRIMENTO 10   
+#define LARGURA  5
+#define NOVALINHA '\n'
 
 int main() {
    int area;  
   
-   area = LENGTH * WIDTH;
+   area = COMPRIMENTO * LARGURA;
    printf("valor de area : %d", area);
-   printf("%c", NEWLINE);
+   printf("%c", NOVALINHA);
 
    return 0;
 }
