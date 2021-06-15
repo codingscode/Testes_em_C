@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <string.h>  // arquivo de cabeçalho para trabalhar com strings
+#include <string.h>
 
 
 int main() {
