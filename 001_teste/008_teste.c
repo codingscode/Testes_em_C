@@ -3,8 +3,9 @@
 int main () {
 
    for( ; ; ) {
-      printf("This loop will run forever.\n");
+      printf("Este loop rodara para sempre.\n");
    }
 
    return 0;
 }
+

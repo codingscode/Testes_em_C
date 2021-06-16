@@ -1,33 +1,37 @@
 #include <stdio.h>
  
-/* function declaration */
+/* funcao declaracao */
 int max(int num1, int num2);
  
 int main () {
 
-   /* local variable definition */
+   /* definicao de variavel local */
    int a = 100;
    int b = 200;
    int ret;
  
-   /* calling a function to get max value */
+   /* chamando uma funcao para obter maximo valor */
    ret = max(a, b);
  
-   printf( "Max value is : %d\n", ret );
+   printf("Maximo valor eh : %d\n", ret);
  
    return 0;
 }
  
-/* function returning the max between two numbers */
+/* funcao retornando o maximo entre dois numeros */
 int max(int num1, int num2) {
-
-   /* local variable declaration */
-   int result;
+   /* declaracao de variavel local */
+   int resultado;
  
    if (num1 > num2)
-      result = num1;
+      resultado = num1;
    else
-      result = num2;
+      resultado = num2;
  
-   return result; 
+   return resultado; 
 }
+
+/*
+Maximo valor eh : 200
+*/
+
