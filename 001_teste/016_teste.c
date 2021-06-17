@@ -1,25 +1,26 @@
 #include <stdio.h>
 
+
 int main () {
 
-   int  var = 20;   /* declaração de variavel real */
-   int  *ip;        /* declaração de variavel ponteiro */
+   int var = 20;   /* declaracao de variavel real */
+   int *ip;        /* declaracao de variavel ponteiro */
 
-   ip = &var;  /* armazena endereço de var na variavel ponteiro */
+   ip = &var;  /* armazena endereco de var na variavel ponteiro */
 
-   printf("Endereço da variavel var: %x\n", &var  );
+   printf("Endereco da variavel var: %x\n", &var);
 
-   /* endereço armazenado na variavel ponteiro */
-   printf("Endereço armazenado na variavel ip: %x\n", ip );
+   /* endereco armazenado na variavel ponteiro */
+   printf("Endereco armazenado na variavel ip: %x\n", ip);
 
    /* acessar o valor usando o ponteiro */
-   printf("Valor da variavel *ip: %d\n", *ip );
+   printf("Valor da variavel *ip: %d\n", *ip);
 
    return 0;
 }
 
 /* 
-Endereço da variavel var: 957f6b28
-Endereço armazenado na variavel ip: 957f6b28
+Endereco da variavel var: 62fe14
+Endereco armazenado na variavel ip: 62fe14
 Valor da variavel *ip: 20
- */
+*/

@@ -2,12 +2,13 @@
 
 int main () {
 
-   int  *ptr = NULL;
+   int *ponteiro = NULL;
 
-   printf("O valor de ptr é : %x\n", ptr);
+   printf("O valor de ponteiro eh : %x\n", ponteiro);
  
    return 0;
 }
+
 /* 
-O valor de ptr é : 0
- */
+O valor de ponteiro eh : 0
+*/
