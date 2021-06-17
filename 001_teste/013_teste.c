@@ -11,7 +11,7 @@ int main () {
   int c = 0;
 
   printf ("valor de a em main() = %d\n",  a);
-  c = somar( a, b);
+  c = somar(a, b);
   printf ("valor de c em main() = %d\n",  c);
 
   return 0;
@@ -30,5 +30,5 @@ int somar(int a, int b) {
 valor de a em main() = 10
 valor de a em somar() = 10
 valor de b em somar() = 20
-valor de c em main() = 30 
+valor de c em main() = 30
 */
