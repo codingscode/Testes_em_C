@@ -1,5 +1,6 @@
 #include <stdio.h>
  
+
 int main () {
 
   /* declaração de variavel local */
@@ -11,7 +12,11 @@ int main () {
   b = 20;
   c = a + b;
  
-  printf ("valor de a = %d, b = %d e c = %d\n", a, b, c);
+  printf("valor de a = %d, b = %d e c = %d\n", a, b, c);
  
   return 0;
 }
+
+/* 
+valor de a = 10, b = 20 e c = 30
+*/
