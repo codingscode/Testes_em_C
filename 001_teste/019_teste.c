@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
+
 int main () {
 
    char string_1[12] = "Ola";

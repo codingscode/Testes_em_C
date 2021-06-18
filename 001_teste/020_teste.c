@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <string.h>
  
+
 struct Livros {
    char titulo[50];
    char autor[50];
@@ -8,7 +9,7 @@ struct Livros {
    int livro_id;
 };
  
-int main( ) {
+int main() {
 
    struct Livros Livro1;        /* declarar Livro1 do tipo Livro */
    struct Livros Livro2;        /* declarar Livro2 do tipo Livro */
