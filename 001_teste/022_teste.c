@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <string.h>
  
+
 struct Livros {
    char titulo[50];
    char autor[50];
@@ -8,7 +9,7 @@ struct Livros {
    int livro_id;
 };
 
-/* declarando função */
+/* declarando funcao */
 void imprimirLivro( struct Livros *livro );
 
 int main() {
@@ -16,13 +17,13 @@ int main() {
    struct Livros Livro1;        /* declarar Livro1 do tipo Livro */
    struct Livros Livro2;        /* declarar Livro2 do tipo Livro */
  
-   /* livro 1 especificação */
-   strcpy( Livro1.titulo, "Programação em Python");
+   /* livro 1 especificacao */
+   strcpy( Livro1.titulo, "Programacao em Python");
    strcpy( Livro1.autor, "Bob Allan"); 
-   strcpy( Livro1.assunto, "Programação em Python Tutorial");
+   strcpy( Livro1.assunto, "Programacao em Python Tutorial");
    Livro1.livro_id = 6495407;
 
-   /* livro 2 especificação */
+   /* livro 2 especificacao */
    strcpy( Livro2.titulo, "Culinaria economica");
    strcpy( Livro2.autor, "Frederico Gomes");
    strcpy( Livro2.assunto, "Culinaria economica Tutorial");
@@ -39,16 +40,16 @@ int main() {
 
 void imprimirLivro( struct Livros *livro ) {
 
-   printf( "Livro titulo : %s\n", livro->titulo);
-   printf( "Livro autor : %s\n", livro->autor);
-   printf( "Livro assunto : %s\n", livro->assunto);
-   printf( "Livro livro_id : %d\n", livro->livro_id);
+   printf("Livro titulo : %s\n", livro->titulo);
+   printf("Livro autor : %s\n", livro->autor);
+   printf("Livro assunto : %s\n", livro->assunto);
+   printf("Livro livro_id : %d\n", livro->livro_id);
 }
 
 /* 
-Livro titulo : Programação em Python
+Livro titulo : Programacao em Python
 Livro autor : Bob Allan
-Livro assunto : Programação em Python Tutorial
+Livro assunto : Programacao em Python Tutorial
 Livro livro_id : 6495407
 Livro titulo : Culinaria economica
 Livro autor : Frederico Gomes
