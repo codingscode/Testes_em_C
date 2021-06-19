@@ -27,16 +27,16 @@ int main() {
    Livro2.livro_id = 6495700;
  
    /* imprimir Livro1 info */
-   printf( "Livro 1 titulo : %s\n", Livro1.titulo);
-   printf( "Livro 1 autor : %s\n", Livro1.autor);
-   printf( "Livro 1 assunto : %s\n", Livro1.assunto);
-   printf( "Livro 1 livro_id : %d\n", Livro1.livro_id);
+   printf("Livro 1 titulo : %s\n", Livro1.titulo);
+   printf("Livro 1 autor : %s\n", Livro1.autor);
+   printf("Livro 1 assunto : %s\n", Livro1.assunto);
+   printf("Livro 1 livro_id : %d\n", Livro1.livro_id);
 
    /* imprimir Livro2 info */
-   printf( "Livro 2 titulo : %s\n", Livro2.titulo);
-   printf( "Livro 2 autor : %s\n", Livro2.autor);
-   printf( "Livro 2 assunto : %s\n", Livro2.assunto);
-   printf( "Livro 2 livro_id : %d\n", Livro2.livro_id);
+   printf("Livro 2 titulo : %s\n", Livro2.titulo);
+   printf("Livro 2 autor : %s\n", Livro2.autor);
+   printf("Livro 2 assunto : %s\n", Livro2.assunto);
+   printf("Livro 2 livro_id : %d\n", Livro2.livro_id);
    
    return 0;
 }

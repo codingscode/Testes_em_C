@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <string.h>
  
+
 struct Livros {
    char titulo[50];
    char autor[50];
@@ -39,10 +40,10 @@ int main() {
 
 void imprimirLivro( struct Livros livro ) {
 
-   printf( "Livro titulo : %s\n", livro.titulo);
-   printf( "Livro autor : %s\n", livro.autor);
-   printf( "Livro assunto : %s\n", livro.assunto);
-   printf( "Livro livro_id : %d\n", livro.livro_id);
+   printf("Livro titulo : %s\n", livro.titulo);
+   printf("Livro autor : %s\n", livro.autor);
+   printf("Livro assunto : %s\n", livro.assunto);
+   printf("Livro livro_id : %d\n", livro.livro_id);
 }
 
 /* 
@@ -54,4 +55,4 @@ Livro titulo : Telecom Billing
 Livro autor : Zara Ali
 Livro assunto : Telecom Billing Tutorial
 Livro livro_id : 6495700
- */
+*/
