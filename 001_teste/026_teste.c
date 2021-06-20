@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
+
 /* definir estrutura simples */
 struct {
    unsigned int larguraValidada;
@@ -13,13 +14,13 @@ struct {
    unsigned int alturaValidada : 1;
 } status2;
  
-int main( ) {
-   printf( "Tamanho de memória ocupado por status1 : %d\n", sizeof(status1));
-   printf( "Tamanho de memória ocupado por status2 : %d\n", sizeof(status2));
+int main() {
+   printf("Tamanho de memoria ocupado por status1 : %d\n", sizeof(status1));
+   printf("Tamanho de memoria ocupado por status2 : %d\n", sizeof(status2));
    return 0;
 }
 
 /* 
-Tamanho de memória ocupado por status1 : 8
-Tamanho de memória ocupado por status2 : 4
+Tamanho de memoria ocupado por status1 : 8
+Tamanho de memoria ocupado por status2 : 4
 */
