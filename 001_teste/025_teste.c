@@ -17,7 +17,7 @@ int main( ) {
    dado.f = 220.5;
    printf( "dado.f : %f\n", dado.f);
    
-   strcpy( dado.string, "Programação em C");
+   strcpy( dado.string, "Programacao em C");
    printf( "dado.string : %s\n", dado.string);
 
    return 0;
@@ -26,5 +26,5 @@ int main( ) {
 /* 
 dado.i : 10
 dado.f : 220.500000
-dado.string : Programação em C
+dado.string : Programacao em C
 */

@@ -8,7 +8,7 @@ union Dado {
    char string[20];
 };
  
-int main( ) {
+int main() {
 
    union Dado dado;        
 
