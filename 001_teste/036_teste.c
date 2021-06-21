@@ -1,5 +1,5 @@
-
 #include <stdio.h>
+
 
 #define  mensagem_para(a, b)  \
    printf(#a " e " #b ": Nos amamos voces !\n")

@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+
 main() {
 
    FILE *fp;
@@ -7,20 +8,20 @@ main() {
 
    fp = fopen("034_teste_arquivo.txt", "r");
    fscanf(fp, "%s", buff);
-   printf("1 : %s\n", buff );
+   printf("1: %s\n", buff);
 
    fgets(buff, 255, (FILE*)fp);
-   printf("2: %s\n", buff );
+   printf("2: %s\n", buff);
    
    fgets(buff, 255, (FILE*)fp);
-   printf("3: %s\n", buff );
+   printf("3: %s\n", buff);
    fclose(fp);
 
 }
 
 /* 
-1 : Testando
-2:  um arquivo de texto.
+1: primeira
+2:  linha.
 
-3: Estudando C.
+3: segunda linha.
 */
