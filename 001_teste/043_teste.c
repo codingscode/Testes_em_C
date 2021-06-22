@@ -2,13 +2,14 @@
 #include <errno.h>
 #include <string.h>
 
-extern int errno ;
+
+extern int errno;
 
 int main () {
 
-   FILE * pf;
+   FILE *pf;
    int errnum;
-   pf = fopen ("naoexistente.txt", "rb");
+   pf = fopen("naoexistente.txt", "rb");
 	
    if (pf == NULL) {
    
