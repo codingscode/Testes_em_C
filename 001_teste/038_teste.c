@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+
 #if !defined (MENSAGEM)
    #define MENSAGEM "Como vai ?"
 #endif

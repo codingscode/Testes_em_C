@@ -11,6 +11,7 @@ o mesmo que
 
 #include <stdio.h>
 
+
 #define MAXIMO(x,y) ((x) > (y) ? (x) : (y))
 
 int main(void) {
@@ -21,4 +22,3 @@ int main(void) {
 /*
 Maximo entre 20 e 10 : 20
 */
-
