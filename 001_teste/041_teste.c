@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+
 main() {
 
    int  i = 17;
@@ -7,7 +8,7 @@ main() {
    int soma;
 
    soma = i + c;
-   printf("Valor de soma : %d\n", soma );
+   printf("Valor de soma : %d\n", soma);
 }
 
 /* 
