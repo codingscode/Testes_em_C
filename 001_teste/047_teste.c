@@ -1,15 +1,16 @@
 #include <stdio.h>
 
+
 int fibonacci(int i) {
 
-   if(i == 0) {
+   if (i == 0) {
       return 0;
    }
 	
-   if(i == 1) {
+   if (i == 1) {
       return 1;
    }
-   return fibonacci(i-1) + fibonacci(i-2);
+   return fibonacci(i - 1) + fibonacci(i - 2);
 }
 
 int  main() {
@@ -17,21 +18,12 @@ int  main() {
    int i;
 	
    for (i = 0; i < 10; i++) {
-      printf("%d\t\n", fibonacci(i));
+      printf("%d -> ", fibonacci(i));
    }
 	
    return 0;
 }
 
 /* 
-0
-1
-1
-2
-3
-5
-8
-13
-21
-34
+0 -> 1 -> 1 -> 2 -> 3 -> 5 -> 8 -> 13 -> 21 -> 34 ->
 */
