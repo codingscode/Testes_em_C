@@ -12,6 +12,7 @@ void *realloc(void *address, int newsize); -> This function re-allocates memory 
 #include <stdlib.h>
 #include <string.h>
 
+
 int main() {
 
    char nome[100];
@@ -23,11 +24,11 @@ int main() {
    descricao = malloc( 200 * sizeof(char) );
    printf("Descricao: %s\n", descricao );
 	
-   if( descricao == NULL ) {
+   if ( descricao == NULL ) {
       fprintf(stderr, "Erro - inapto a alocar memoria requerida\n");
    }
    else {
-      strcpy( descricao, "Zara ali, uma aluna DPS na 10Âª classe");
+      strcpy( descricao, "Zara ali, uma aluna DPS na 10 classe");
    }
    
    printf("Nome = %s\n", nome );
@@ -35,7 +36,7 @@ int main() {
 }
 
 /* 
-Descricao: ÓX¡
+Descricao: ÓX«
 Nome = Zara Ali
-Descricao: Zara ali, uma aluna DPS na 10-¬ classe
+Descricao: Zara ali, uma aluna DPS na 10 classe
 */
