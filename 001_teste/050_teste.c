@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 
+
 int main() {
 
    char nome[100];
@@ -13,7 +14,7 @@ int main() {
    descricao = malloc( 30 * sizeof(char) );
    printf("Descricao: %s\n", descricao );
 	
-   if( descricao == NULL ) {
+   if ( descricao == NULL ) {
       fprintf(stderr, "Erro - inapto a alocar memoria requerida\n");
    }
    else {
@@ -24,7 +25,7 @@ int main() {
    descricao = realloc( descricao, 100 * sizeof(char) );
    printf("Descricao: %s\n", descricao );
 	
-   if( descricao == NULL ) {
+   if ( descricao == NULL ) {
       fprintf(stderr, "Erro - inapto a alocar memoria requerida\n");
    }
    else {
