@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+
 int main() {
    const int  COMPRIMENTO = 10;
    const int  LARGURA = 5;
