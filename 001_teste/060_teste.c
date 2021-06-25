@@ -1,12 +1,13 @@
 #include <stdio.h>
 
+
 int soma(int *a, int *b) {
     *a = *a + *b;
     return *a;
 }
 
 int main() {
-    int x=5, y=3;
+    int x = 5, y = 3;
     printf("antes -> x: %d\n", x);
     printf("antes -> y: %d\n", y);
     y = soma(&x, &y);

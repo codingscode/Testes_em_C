@@ -9,13 +9,13 @@ int soma(int a, int b) {
 
 int main() {
     int x = 5, y = 10;
-    int z ;
+    int z;
     z = soma(x, y);
-    printf("%d", z);
+    printf("z: %d", z);
     
     return(0);
 }
 
 /*
-15
+z: 15
 */
