@@ -5,8 +5,11 @@ int main() {
     int a;
     a = 3;
 
-    printf("%d", a);
+    printf("a: %d", a);
 
     return (0);
 }
 
+/* 
+a: 3
+*/

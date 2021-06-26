@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include "064_teste_externo.c"
- 
-int contador ;
+
+
+int contador;
 extern void escrever_externo();
  
 main() {
