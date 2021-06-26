@@ -10,7 +10,7 @@ int main() {
 
     printf("numero1 = %f\n", numero1);
     printf("numero2 = %lf\n", numero2);
-    printf("numero3 = %d\n", numero2);
+    printf("numero3 = %d\n", numero3);
     printf("caractere = %c", caractere);  
 
     return 0;
@@ -19,6 +19,6 @@ int main() {
 /*
 numero1 = 13.500000
 numero2 = 12.400000
-numero3 = -858993459
+numero3 = 3
 caractere = a
 */
