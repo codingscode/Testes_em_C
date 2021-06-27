@@ -15,8 +15,6 @@ bitwise operator
 int main() {
     int a = 12, b = 25, c = 17;
     
-
-    
     /* 
     12 decimal para base 2 eh 1100
     25 decimal para base 2 eh 11001
@@ -49,12 +47,12 @@ int main() {
     printf("Saida ~(-13) = %d\n", ~(-13));
     printf("Saida ~(-25) = %d\n", ~(-25));
     printf("Saida ~(-26) = %d\n", ~(-26));
-    printf("%d>>1 = %d\n", c, c>>1);
-    printf("%d>>2 = %d\n", c, c>>2);
-    printf("%d>>3 = %d\n", c, c>>3);
-    printf("%d<<1 = %d\n", c, c<<1);
-    printf("%d<<2 = %d\n", c, c<<2);
-    printf("%d<<3 = %d\n", c, c<<3);
+    printf("%d >> 1 = %d\n", c, c>>1);
+    printf("%d >> 2 = %d\n", c, c>>2);
+    printf("%d >> 3 = %d\n", c, c>>3);
+    printf("%d << 1 = %d\n", c, c<<1);
+    printf("%d << 2 = %d\n", c, c<<2);
+    printf("%d << 3 = %d\n", c, c<<3);
     
     return 0;
 }
@@ -69,10 +67,10 @@ Saida ~(-12) = 11
 Saida ~(-13) = 12
 Saida ~(-25) = 24
 Saida ~(-26) = 25
-17>>1 = 8
-17>>2 = 4
-17>>3 = 2
-17<<1 = 34
-17<<2 = 68
-17<<3 = 136
+17 >> 1 = 8
+17 >> 2 = 4
+17 >> 3 = 2
+17 << 1 = 34
+17 << 2 = 68
+17 << 3 = 136
 */

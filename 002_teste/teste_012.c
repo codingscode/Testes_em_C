@@ -2,25 +2,25 @@
 
 
 int main() {
-    int a = 5, b = 5, c = 10, result;
+    int a = 5, b = 5, c = 10, resultado;
 
-    result = (a == b) && (c > b);
-    printf("(%d == %d) && (%d > %d) eh %d \n", a, b, c, b, result);
+    resultado = (a == b) && (c > b);
+    printf("(%d == %d) && (%d > %d) eh %d \n", a, b, c, b, resultado);
 
-    result = (a == b) && (c < b);
-    printf("(%d == %d) && (%d < %d) eh %d \n", a, b, c, b, result);
+    resultado = (a == b) && (c < b);
+    printf("(%d == %d) && (%d < %d) eh %d \n", a, b, c, b, resultado);
 
-    result = (a == b) || (c < b);
-    printf("(%d == %d) || (%d < %d) eh %d \n", a, b, c, b, result);
+    resultado = (a == b) || (c < b);
+    printf("(%d == %d) || (%d < %d) eh %d \n", a, b, c, b, resultado);
 
-    result = (a != b) || (c < b);
-    printf("(%d != %d) || (%d < %d) eh %d \n", a, b, c, b, result);
+    resultado = (a != b) || (c < b);
+    printf("(%d != %d) || (%d < %d) eh %d \n", a, b, c, b, resultado);
 
-    result = !(a != b);
-    printf("!(%d != %d) eh %d \n", a, b, result);
+    resultado = !(a != b);
+    printf("!(%d != %d) eh %d \n", a, b, resultado);
 
-    result = !(a == b);
-    printf("!(%d == %d) eh %d \n", a, b, result);
+    resultado = !(a == b);
+    printf("!(%d == %d) eh %d \n", a, b, resultado);
 
     return 0;
 }
