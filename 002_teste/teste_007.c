@@ -6,13 +6,13 @@ int main() {
     double d;
     
     c = a + b;
-    printf("a + b = %d \n",c);
+    printf("a + b = %d \n", c);
     c = a - b;
-    printf("a - b = %d \n",c);
+    printf("a - b = %d \n", c);
     c = a * b;
-    printf("a * b = %d \n",c);
+    printf("a * b = %d \n", c);
     c = a / b;
-    printf("a / b = %d \n",c);
+    printf("a / b = %d \n", c);
     c = a % b;
     printf("O resto da divisao a / b = %d \n", c);
     d = 9.0 / 5.0;

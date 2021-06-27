@@ -16,9 +16,9 @@ int main() {
     printf("Digite um numero double: \n");
     scanf("%lf", &numero_double); 
 
-    printf("\n\nNumero inteiro = %d\n", testar_inteiro);
-    printf("Numero float = %f\n", numero_float);
-    printf("Numero double = %lf\n", numero_double);
+    printf("\n\nNumero inteiro = %d \n", testar_inteiro);
+    printf("Numero float = %f \n", numero_float);
+    printf("Numero double = %lf \n", numero_double);
     printf("Caractere digitado = %c.\n", caractere);  
     printf("Caractere digitado valor em ascii = %d.\n", caractere);  
 
