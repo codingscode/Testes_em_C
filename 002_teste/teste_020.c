@@ -1,15 +1,17 @@
-// Program to calculate the soma of first n natural numbers
-// Positive integers 1,2,3...n are known as natural numbers
+// programa calcula a soma dos n primeiros numeros naturais
+// inteiros positivos 1, 2, 3...n sao conhecidos como numeros naturais
 
 #include <stdio.h>
+
+
 int main() {
     int numero, contador, soma = 0;
 
     printf("Digite um inteiro positivo: \n");
     scanf("%d", &numero);
 
-    // for loop terminates when numero is less than contador
-    for(contador = 1; contador <= numero; ++contador) {
+    // loop for encerra quando numero eh menor que contador
+    for (contador = 1; contador <= numero; ++contador) {
         soma += contador;
     }
 
