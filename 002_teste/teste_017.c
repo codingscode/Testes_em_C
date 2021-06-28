@@ -8,7 +8,7 @@ int main() {
 
     // verifica se os inteiros são iguais
     if (numero1 == numero2) {
-        printf("Resultado: %d = %d",numero1,numero2);
+        printf("Resultado: %d = %d", numero1, numero2);
     }
 
     // verifica se numero1 eh maior que numero2
@@ -18,7 +18,7 @@ int main() {
 
     // verifica se ambas expressoes sao false
     else {
-        printf("Resultado: %d < %d",numero1, numero2);
+        printf("Resultado: %d < %d", numero1, numero2);
     }
 
     return 0;

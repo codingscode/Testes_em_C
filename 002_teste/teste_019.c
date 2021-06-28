@@ -1,10 +1,11 @@
 #include <stdio.h>
 
+
 int main() {
   int indice;
 
   for (indice = 1; indice < 11; ++indice) {
-    printf("%d ", indice);
+     printf("%d ", indice);
   }
 
   return 0;
