@@ -1,5 +1,6 @@
-// Program to create a simple calculator
+// Programa para criar uma calculadora simples
 #include <stdio.h>
+
 
 int main() {
     char operador;
@@ -8,23 +9,20 @@ int main() {
     printf("Digite um operador (+, -, *, /): \n");
     scanf("%c", &operador);
     printf("Digite dois operadores um abaixo do outro: \n");
-    scanf("%lf %lf",&numero1, &numero2);
+    scanf("%lf %lf", &numero1, &numero2);
 
-    switch(operador) {
+    switch (operador) {
         case '+':
-            printf("%.1lf + %.1lf = %.1lf",numero1, numero2, numero1+numero2);
+            printf("%.1lf + %.1lf = %.1lf", numero1, numero2, numero1+numero2);
             break;
-
         case '-':
-            printf("%.1lf - %.1lf = %.1lf",numero1, numero2, numero1-numero2);
+            printf("%.1lf - %.1lf = %.1lf", numero1, numero2, numero1-numero2);
             break;
-
         case '*':
-            printf("%.1lf * %.1lf = %.1lf",numero1, numero2, numero1*numero2);
+            printf("%.1lf * %.1lf = %.1lf", numero1, numero2, numero1*numero2);
             break;
-
         case '/':
-            printf("%.1lf / %.1lf = %.1lf",numero1, numero2, numero1/numero2);
+            printf("%.1lf / %.1lf = %.1lf", numero1, numero2, numero1/numero2);
             break;
 
         // operador não combina com qualquer constante +, -, *, /

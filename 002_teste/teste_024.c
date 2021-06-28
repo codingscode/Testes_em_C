@@ -1,5 +1,5 @@
-// Program to calculate the soma of numbers (10 numbers max)
-// If the user enters a negative numero, it's not added to the result
+// programa para calcular a soma de numeros (max 10 numeros)
+// se o usuario digitar um numero negativo, isto nao eh adicionado ao resultado
 
 #include <stdio.h>
 

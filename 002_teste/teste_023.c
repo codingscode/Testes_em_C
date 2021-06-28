@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+
 int main() {
    int indice, quant_numeros;
    double numero, soma = 0.0;
