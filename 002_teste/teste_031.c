@@ -26,7 +26,7 @@ int main() {
     else {
         realPart = -b / (2 * a);
         parte_imaginaria = sqrt(-discriminante) / (2 * a);
-        printf("raiz_1 = %.2lf+%.2lfi e raiz_2 = %.2f-%.2fi", realPart, parte_imaginaria, realPart, parte_imaginaria);
+        printf("raiz_1 = %.2lf + %.2lfi e raiz_2 = %.2f - %.2fi", realPart, parte_imaginaria, realPart, parte_imaginaria);
     }
 
     return 0;
@@ -45,6 +45,6 @@ Digite coeficientes a, b e c:
 4
 2
 10
-raiz_1 = -0.25+1.56i e raiz_2 = -0.25-1.56i
+raiz_1 = -0.25 + 1.56i e raiz_2 = -0.25 - 1.56i
 
 */
