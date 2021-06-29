@@ -1,6 +1,7 @@
 #include <ctype.h>
 #include <stdio.h>
 
+
 int main() {
    char c;
    int vogal_minuscula, vogal_maiuscula;

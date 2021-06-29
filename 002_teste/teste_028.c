@@ -25,4 +25,10 @@ int main() {
 Digite um letra:
 e
 e eh uma vogal.
+
+ou
+
+Digite um letra:
+f
+f eh uma consoante.
 */
