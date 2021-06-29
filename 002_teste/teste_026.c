@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+
 int main() {
 
    const int entrada_maxima = 100;

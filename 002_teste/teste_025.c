@@ -8,7 +8,7 @@ int main() {
 
     printf("Digite um operador (+, -, *, /): \n");
     scanf("%c", &operador);
-    printf("Digite dois operadores um abaixo do outro: \n");
+    printf("Digite dois numeros um abaixo do outro: \n");
     scanf("%lf %lf", &numero1, &numero2);
 
     switch (operador) {
@@ -36,7 +36,7 @@ int main() {
 /* 
 Digite um operador (+, -, *, /):
 +
-Digite dois operadores um abaixo do outro:
+Digite dois numeros um abaixo do outro:
 3
 6
 3.0 + 6.0 = 9.0
@@ -45,7 +45,7 @@ ou
 
 Digite um operador (+, -, *, /):
 ?
-Digite dois operadores um abaixo do outro:
+Digite dois numeros um abaixo do outro:
 9
 3
 Erro! operador nao eh correto.
