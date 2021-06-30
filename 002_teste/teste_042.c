@@ -13,7 +13,7 @@ int main() {
         else
             numero2 -= numero1;
     }
-    printf("Maior divisor comum = %d",numero1);
+    printf("Maior divisor comum = %d", numero1);
 
     return 0;
     
@@ -24,4 +24,11 @@ Digite dois numeros inteiros um apos outro:
 12
 18
 Maior divisor comum = 6
+
+ou
+
+Digite dois numeros inteiros um apos outro:
+56
+64
+Maior divisor comum = 8
 */
