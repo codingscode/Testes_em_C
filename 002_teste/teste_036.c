@@ -20,6 +20,6 @@ int main() {
 
 /* 
 Digite um inteiro positivo:
-4
-Soma de 0 ate 4 => 10
+7
+Soma de 0 ate 7 => 28
 */

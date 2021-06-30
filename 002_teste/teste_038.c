@@ -1,4 +1,6 @@
 #include <stdio.h>
+
+
 int main() {
     int numero, indice;
     unsigned long long fatorial = 1;
@@ -22,6 +24,5 @@ int main() {
 Digite um inteiro:
 5
 Fatorial de 5 = 120
-
 
 */
