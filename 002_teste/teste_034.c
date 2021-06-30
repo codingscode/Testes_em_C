@@ -2,14 +2,14 @@
 
 
 int main() {
-    char c;
+    char caractere;
     printf("Digite uma letra:\n");
-    scanf("%c", &c);
+    scanf("%c", &caractere);
 
-    if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
-        printf("%c eh uma letra.", c);
+    if ((caractere >= 'a' && caractere <= 'z') || (caractere >= 'A' && caractere <= 'Z'))
+        printf("%c eh uma letra.", caractere);
     else
-        printf("%c nao eh uma letra.", c);
+        printf("%c nao eh uma letra.", caractere);
 
     return 0;
 }

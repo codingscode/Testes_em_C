@@ -7,7 +7,7 @@ int main() {
     printf("Digite coeficientes a, b e c:\n");
     scanf("%lf %lf %lf", &a, &b, &c);
 
-    discriminante = b * b - 4 * a * c;
+    discriminante = b*b - 4*a*c;
 
     // condicao para real e raizes diferentes
     if (discriminante > 0) {
