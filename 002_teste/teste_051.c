@@ -6,7 +6,7 @@ int main() {
   printf("Digite um inteiro positivo:\n");
   scanf("%d", &numero);
 
-  for (indice = 2; indice <= numero / 2; ++indice) {
+  for (indice = 2; indice <= numero/2; ++indice) {
     // condicao para nao primo
     if (numero % indice == 0) {
       flag = 1;
@@ -43,5 +43,4 @@ ou
 Digite um inteiro positivo:
 1
 1 eh nem primo nem composto.
-
 */

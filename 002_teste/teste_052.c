@@ -7,7 +7,7 @@ int main() {
    scanf("%d %d", &inferior, &superior);
    printf("Numeros primos entre %d e %d sao: ", inferior, superior);
 
-   // iteracao ate inferior nao eh igual a to superior
+   // iteracao ate inferior nao eh igual a superior
    while (inferior < superior) {
       flag = 0;
 
@@ -18,7 +18,7 @@ int main() {
       }
 
       // se inferior eh numero nao primo, flag serah 1
-      for (indice = 2; indice <= inferior / 2; ++indice) {
+      for (indice = 2; indice <= inferior/2; ++indice) {
 
          if (inferior % indice == 0) {
             flag = 1;
