@@ -1,6 +1,7 @@
 #include <math.h>
 #include <stdio.h>
 
+
 int main() {
     double base, expoente, resultado;
     printf("Digite um numero base:\n");
