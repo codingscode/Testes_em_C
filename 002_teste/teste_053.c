@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+
 int main() {
    int inferior, superior, indice, flag, temp;
    printf("Digite dois numeros(intervalo):\n");
@@ -13,6 +14,7 @@ int main() {
    }
 
    printf("Numeros primos entre %d e %d sao:\n", inferior, superior);
+
    while (inferior < superior) {
       flag = 0;
 
@@ -22,7 +24,7 @@ int main() {
          continue;
       }
 
-      for (indice = 2; indice <= inferior / 2; ++indice) {
+      for (indice = 2; indice <= inferior/2; ++indice) {
          if (inferior % indice == 0) {
             flag = 1;
             break;
