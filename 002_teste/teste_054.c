@@ -9,9 +9,9 @@ int main() {
 
     while (numero_original != 0) {
        // resto contem o ultimo digito
-        resto = numero_original % 10;
+       resto = numero_original % 10;
         
-       resultado += resto * resto * resto;
+       resultado += pow(resto, 3);
         
        // removendo ultimo digito do numero original
        numero_original /= 10;

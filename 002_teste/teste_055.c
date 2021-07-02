@@ -17,7 +17,7 @@ int main() {
    }
 
    for (numero_original = numero; numero_original != 0; numero_original /= 10) {
-       resto = numero_original % 10;
+      resto = numero_original % 10;
 
       // armazena a soma da potencia de digitos individuais no resultado
       resultado += pow(resto, n);
