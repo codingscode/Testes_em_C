@@ -6,11 +6,11 @@ int receberInteiro();
 int main() {
     int numero, indice, flag = 0;
 
-   // nenhum argumento eh passed
+   // nenhum argumento eh passado
     numero = receberInteiro();    
 
     for (indice = 2; indice <= numero/2; ++indice) {
-        if (numero % indice==0) {
+        if (numero % indice == 0) {
             flag = 1;
             break;
         }
@@ -29,7 +29,7 @@ int receberInteiro() {
     int numero;
 
     printf("Digite um inteiro positivo:\n");
-    scanf("%d",&numero);
+    scanf("%d", &numero);
 
     return numero;
 }
@@ -38,4 +38,10 @@ int receberInteiro() {
 Digite um inteiro positivo:
 11
 11 eh um numero primo.
+
+ou
+
+Digite um inteiro positivo:
+16
+16 nao eh um numero primo.
 */
