@@ -18,4 +18,11 @@ int main() {
 Digite um numero:
 7
 Raiz quadrada de 7.000000 = 2.645751
+
+ou
+
+Digite um numero:
+25
+Raiz quadrada de 25.000000 = 5.000000
+
 */
