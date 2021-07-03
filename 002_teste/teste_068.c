@@ -11,16 +11,16 @@ int main() {
 
     switch (operador) {
         case '+':
-            printf("%.1lf + %.1lf = %.1lf", primeiro, segundo, primeiro + segundo);
+            printf("%.1lf + %.1lf = %.2lf", primeiro, segundo, primeiro + segundo);
             break;
         case '-':
-            printf("%.1lf - %.1lf = %.1lf", primeiro, segundo, primeiro - segundo);
+            printf("%.1lf - %.1lf = %.2lf", primeiro, segundo, primeiro - segundo);
             break;
         case '*':
-            printf("%.1lf * %.1lf = %.1lf", primeiro, segundo, primeiro * segundo);
+            printf("%.1lf * %.1lf = %.2lf", primeiro, segundo, primeiro * segundo);
             break;
         case '/':
-            printf("%.1lf / %.1lf = %.1lf", primeiro, segundo, primeiro / segundo);
+            printf("%.1lf / %.1lf = %.2lf", primeiro, segundo, primeiro / segundo);
             break;
         // operador nao combina com qualquer caso
         default:
