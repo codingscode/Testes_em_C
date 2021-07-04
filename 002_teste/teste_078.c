@@ -13,7 +13,7 @@ int main() {
 void mostrar() {
     static int c = 1;
     c += 5;
-    printf("%d ",c);
+    printf("%d ", c);
 }
 
 /* 
