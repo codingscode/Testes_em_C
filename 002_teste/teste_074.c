@@ -4,16 +4,16 @@
 int checarNumeroPrimo(int n);
 
 int main() {
-    int numero, flag;
+    int numero, presenca;
 
     printf("Digite um inteiro positivo:\n");
-    scanf("%d",&numero);
+    scanf("%d", &numero);
 
     // numero eh passado a funcao checarNumeroPrimo()
-    // o valor retornado eh atribuido a variavel flag
-    flag = checarNumeroPrimo(numero);
+    // o valor retornado eh atribuido a variavel presenca
+    presenca = checarNumeroPrimo(numero);
 
-    if (flag == 1)
+    if (presenca == 1)
         printf("%d nao eh um numero primo", numero);
     else
         printf("%d eh um numero primo", numero);
@@ -26,7 +26,7 @@ int checarNumeroPrimo(int n) {
     int indice;
 
     for (indice = 2; indice <= n/2; ++indice) {
-        if ( n%indice == 0 )
+        if ( n % indice == 0 )
             return 1;
     }
 
@@ -37,4 +37,11 @@ int checarNumeroPrimo(int n) {
 Digite um inteiro positivo:
 19
 19 eh um numero primo
+
+ou
+
+Digite um inteiro positivo:
+18
+18 nao eh um numero primo
+
 */
