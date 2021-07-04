@@ -17,8 +17,8 @@ int main() {
 
 int soma(int n) {
     if (n != 0)
-        // funcao soma() se chama
-        return n + soma(n-1); 
+        // funcao soma() eh chamada
+        return n + soma(n - 1); 
     else
         return n;
 }
@@ -27,4 +27,10 @@ int soma(int n) {
 Digite um inteiro positivo:
 5
 soma = 15
+
+ou
+
+Digite um inteiro positivo:
+3
+soma = 6
 */

@@ -14,7 +14,7 @@ int main(void) {
      printf("C programming");
   }
   
- // Erro: i nao eh declarado neste ponto
+  // Erro: i nao eh declarado neste ponto
   printf("%d", i);  
   return 0;
 }
