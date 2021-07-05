@@ -2,7 +2,7 @@
 
 
 int main() {
-   int inferior, superior, indice, flag, temp;
+   int inferior, superior, indice, presenca, temp;
    printf("Digite dois numeros(intervalo):\n");
    scanf("%d %d", &inferior, &superior);
 
@@ -16,7 +16,7 @@ int main() {
    printf("Numeros primos entre %d e %d sao:\n", inferior, superior);
 
    while (inferior < superior) {
-      flag = 0;
+      presenca = 0;
 
       // ignorar numeros menores que 2
       if (inferior <= 1) {
@@ -26,11 +26,11 @@ int main() {
 
       for (indice = 2; indice <= inferior/2; ++indice) {
          if (inferior % indice == 0) {
-            flag = 1;
+            presenca = 1;
             break;
          }
       }
-      if (flag == 0)
+      if (presenca == 0)
          printf("%d ", inferior);
       ++inferior;
    }

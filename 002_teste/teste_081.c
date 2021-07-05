@@ -4,21 +4,21 @@
 int checarPrimo(int n);
 
 int main() {
-    int numero, indice1, flag = 0;
+    int numero, indice1, presenca = 0;
     printf("Digite um inteiro positivo:\n");
     scanf("%d", &numero);
 
-    for (indice1 = 2; indice1 <= numero / 2; ++indice1) {
+    for (indice1 = 2; indice1 <= numero/2; ++indice1) {
         // condicao para indice1 ser um numero primo
-        if (checarPrimo(indice1) == 1) {
+        if (checarPrimo(indice1) == 0) {
             // condicao para numero-indice1 ser um numero primo
-            if (checarPrimo(numero - indice1) == 1) {
+            if (checarPrimo(numero - indice1) == 0) {
                 printf("%d = %d + %d\n", numero, indice1, numero - indice1);
-                flag = 1;
+                presenca = 1;
             }
         }
     }
-    if (flag == 0)
+    if (presenca == 0)
         printf("%d nao pode ser expressado como a soma de dois numeros primos.", numero);
 
     return 0;
@@ -26,11 +26,11 @@ int main() {
 
 // funcao para checar numero primo
 int checarPrimo(int n) {
-    int indice2, ehPrimo = 1;
+    int indice2, ehPrimo = 0;
 
-    for (indice2 = 2; indice2 <= n / 2; ++indice2) {
+    for (indice2 = 2; indice2 <= n/2; ++indice2) {
         if (n % indice2 == 0) {
-            ehPrimo = 0;
+            ehPrimo = 1;
             break;
         }
     }
@@ -60,6 +60,5 @@ ou
 Digite um inteiro positivo:
 3
 3 nao pode ser expressado como a soma de dois numeros primos.
-
 
 */

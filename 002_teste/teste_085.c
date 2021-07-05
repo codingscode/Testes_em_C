@@ -10,11 +10,11 @@ int main() {
 }
 
 void inverterSentenca() {
-    char c;
-    scanf("%c", &c);
-    if (c != '\n') {
+    char caractere;
+    scanf("%c", &caractere);
+    if (caractere != '\n') {
         inverterSentenca();
-        printf("%c", c);
+        printf("%c", caractere);
     }
 }
 
@@ -22,4 +22,10 @@ void inverterSentenca() {
 Digite uma sentenca:
 dirija-se ao caixa
 axiac oa es-ajirid
+
+ou
+
+Digite uma sentenca:
+o rato roeu a roupa do rei de roma
+amor ed ier od apuor a ueor otar o
 */

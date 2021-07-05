@@ -10,17 +10,17 @@ int main() {
 
 // tipo de retorno eh void significando que nao retorna valor algum
 void checarNumeroPrimo() {
-    int numero, indice, flag = 0;
+    int numero, indice, presenca = 0;
 
     printf("Digite um inteiro positivo:\n");
     scanf("%d", &numero);
 
     for (indice = 2; indice <= numero/2; ++indice) {
         if ( numero % indice == 0 ) {
-            flag = 1;
+            presenca = 1;
         }
     }
-    if (flag == 1)
+    if (presenca == 1)
         printf("%d nao eh um numero primo.", numero);
     else
         printf("%d eh um numero primo.", numero);

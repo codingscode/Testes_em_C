@@ -2,14 +2,14 @@
 
 
 int main() {
-   int inferior, superior, indice, flag;
+   int inferior, superior, indice, presenca;
    printf("Digite dois numeros(intervalos):\n");
    scanf("%d %d", &inferior, &superior);
    printf("Numeros primos entre %d e %d sao: ", inferior, superior);
 
    // iteracao ate inferior nao eh igual a superior
    while (inferior < superior) {
-      flag = 0;
+      presenca = 0;
 
       // ignorar numeros menores que 2
       if (inferior <= 1) {
@@ -17,16 +17,16 @@ int main() {
          continue;
       }
 
-      // se inferior eh numero nao primo, flag serah 1
+      // se inferior eh numero nao primo, presenca serah 1
       for (indice = 2; indice <= inferior/2; ++indice) {
 
          if (inferior % indice == 0) {
-            flag = 1;
+            presenca = 1;
             break;
          }
       }
 
-      if (flag == 0)
+      if (presenca == 0)
          printf("%d ", inferior);
 
       // para checar primo para o proximo numero

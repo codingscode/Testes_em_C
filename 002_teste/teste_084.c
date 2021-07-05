@@ -3,7 +3,6 @@
 
 int mdc(int n1, int n2);
 
-
 int main() {
     int numero1, numero2;
     printf("Digite dois inteiros positivos:\n");

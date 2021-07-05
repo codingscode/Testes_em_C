@@ -4,19 +4,19 @@
 int receberInteiro();
 
 int main() {
-    int numero, indice, flag = 0;
+    int numero, indice, presenca = 0;
 
    // nenhum argumento eh passado
     numero = receberInteiro();    
 
     for (indice = 2; indice <= numero/2; ++indice) {
         if (numero % indice == 0) {
-            flag = 1;
+            presenca = 1;
             break;
         }
     }
 
-    if (flag == 1)
+    if (presenca == 1)
         printf("%d nao eh um numero primo.", numero);
     else
         printf("%d eh um numero primo.", numero);
