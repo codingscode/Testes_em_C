@@ -2,17 +2,17 @@
 #include <stdio.h>
 
 
-int convert(long long n);
+int converter(long long n);
 
 int main() {
     long long numero;
     printf("Digite um numero binario:\n");
     scanf("%lld", &numero);
-    printf("%lld de binario = %d para decimal", numero, convert(numero));
+    printf("%lld de binario = %d para decimal", numero, converter(numero));
     return 0;
 }
 
-int convert(long long n) {
+int converter(long long n) {
     int decimal = 0, indice = 0, resto;
     while (n != 0) {
         resto = n % 10;
