@@ -13,22 +13,23 @@ int main() {
 }
 
 long long converter(int oct) {
-    int decimal = 0, indice = 0;
+    int decimal = 0, expoente = 0;
     long long binario = 0;
 
     // convertendo octal para decimal
     while (oct != 0) {
-        decimal += (oct % 10) * pow(8, indice);
-        ++indice;
+        decimal += (oct % 10) * pow(8, expoente);
+        ++expoente;
         oct /= 10;
+        printf("decimal -> %d\n", decimal);
     }
-    indice = 1;
+    expoente = 1;
 
    // convertendo decimal para binary
     while (decimal != 0) {
-        binario += (decimal % 2) * indice;
+        binario += (decimal % 2) * expoente;
         decimal /= 2;
-        indice *= 10;
+        expoente *= 10;
     }
     return binario;
 }
@@ -36,11 +37,15 @@ long long converter(int oct) {
 /* 
 Digite um numero octal:
 34
+decimal -> 4
+decimal -> 28
 34 de octal = 11100 para binario
 
 ou
 
 Digite um numero octal:
 16
+decimal -> 6
+decimal -> 14
 16 de octal = 1110 para binario
 */

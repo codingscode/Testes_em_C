@@ -1,9 +1,9 @@
 #include <stdio.h>
 
+
 int main() {
   int valores[5];
   
-
   printf("Digite 5 inteiros:\n");
 
   // recebendo entrada e armazenando-a em um array
