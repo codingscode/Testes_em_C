@@ -17,7 +17,7 @@ long long converter(int n) {
     int resto, indice = 1, passo = 1;
     while (n != 0) {
         resto = n % 2;
-        printf("Passo %d: %d/2, Resto = %d, Quociente = %d\n", passo++, n, resto, n / 2);
+        printf("Passo %d: %d/2, Resto = %d, Quociente = %d\n", passo++, n, resto, n/2);
         n /= 2;
         binario += resto * indice;
         indice *= 10;

@@ -11,7 +11,6 @@ int main() {
     scanf("%d", &numero_decimal);
 
     printf("%d de decimal = %d para octal", numero_decimal, converterDecimalparaOctal(numero_decimal));
-
     return 0;
 }
 
@@ -23,7 +22,6 @@ int converterDecimalparaOctal(int num_dec) {
         num_dec /= 8;
         indice *= 10;
     }
-
     return numero_octal;
 }
 
