@@ -2,29 +2,29 @@
 
 
 int main() {
-  int teste[2][3][2]; // 2*3*2 = 12
+    int teste[2][3][2]; // 2*3*2 = 12
 
-  printf("Digite 12 valores:\n");
+    printf("Digite 12 valores:\n");
 
-  for (int i = 0; i < 2; ++i) {
-    for (int j = 0; j < 3; ++j) {
-      for (int k = 0; k < 2; ++k) {
-        scanf("%d", &teste[i][j][k]);
+    for (int i = 0; i < 2; ++i) {
+      for (int j = 0; j < 3; ++j) {
+        for (int k = 0; k < 2; ++k) {
+          scanf("%d", &teste[i][j][k]);
+        }
       }
     }
-  }
 
-  // imprimindo valores com indice proprio
-  printf("\nMostrando valores:\n");
-  for (int i = 0; i < 2; ++i) {
-    for (int j = 0; j < 3; ++j) {
-      for (int k = 0; k < 2; ++k) {
-        printf("teste[%d][%d][%d] = %d\n", i, j, k, teste[i][j][k]);
+    // imprimindo valores com indice proprio
+    printf("\nMostrando valores:\n");
+    for (int i = 0; i < 2; ++i) {
+      for (int j = 0; j < 3; ++j) {
+        for (int k = 0; k < 2; ++k) {
+          printf("teste[%d][%d][%d] = %d\n", i, j, k, teste[i][j][k]);
+        }
       }
     }
-  }
 
-  return 0;
+    return 0;
 }
 
 /* 
