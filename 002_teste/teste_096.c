@@ -16,7 +16,7 @@ int main() {
     printf("Digite elementos da 2 matriz:\n");
     for (int i = 0; i < 2; ++i)
         for (int j = 0; j < 2; ++j) {
-            printf("Enter b%d%d: ", i + 1, j + 1);
+            printf("Digite b%d%d: ", i + 1, j + 1);
             scanf("%f", &b[i][j]);
         }
 
@@ -46,10 +46,10 @@ Digite a12: 2
 Digite a21: 3
 Digite a22: 4
 Digite elementos da 2 matriz:
-Enter b11: 5
-Enter b12: 6
-Enter b21: 7
-Enter b22: 8
+Digite b11: 5
+Digite b12: 6
+Digite b21: 7
+Digite b22: 8
 
 Soma da Matriz:
 6.0     8.0
