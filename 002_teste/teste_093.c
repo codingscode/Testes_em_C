@@ -11,7 +11,7 @@ int main() {
      scanf("%d", &valores[indice]);
   }
 
-  printf("Mostrando inteiros:\n");
+  printf("\nMostrando inteiros:\n");
 
   // imprimindo elementos de um array
   for (int indice2 = 0; indice2 < 5; ++indice2) {
@@ -27,6 +27,7 @@ Digite 5 inteiros:
 1
 10
 6
+
 Mostrando inteiros:
 3
 5
