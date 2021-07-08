@@ -6,6 +6,7 @@ int main() {
     c = 5;
     ponteiro = &c;
     c = 1;
+    
     printf("c: %d\n", c);    
     printf("*ponteiro: %d\n", *ponteiro); 
 
