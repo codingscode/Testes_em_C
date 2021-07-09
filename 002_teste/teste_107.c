@@ -5,10 +5,10 @@ int main() {
     int c, *pc;
 
     //pc eh endereco mas c nao eh
-    pc = c; // Error
+    pc = c; // Erro
 
     // &c eh endereco mas *pc nao eh 
-    *pc = &c; // Error
+    *pc = &c; // Erro
 
     // tanto &c e pc sao enderecos
     pc = &c;

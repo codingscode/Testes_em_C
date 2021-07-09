@@ -12,13 +12,14 @@ int main() {
    
    int *ponteiro:
    ponteiro = &c;
-   
    */
   
-   printf("*ponteiro: %d", *ponteiro); 
+   printf("*ponteiro: %d\n", *ponteiro); 
+   printf("ponteiro: %d", ponteiro); 
    return 0; 
 }
 
 /* 
 *ponteiro: 5
+ponteiro: 6487572
 */
