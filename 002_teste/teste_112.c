@@ -7,7 +7,7 @@ int main() {
     int numero1 = 5, numero2 = 10;
 
     // endereco de numero1 e numero2 eh passado
-    trocar( &numero1, &numero2);
+    trocar( &numero1, &numero2 );
 
     printf("numero1 = %d\n", numero1);
     printf("numero2 = %d", numero2);

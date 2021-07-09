@@ -3,12 +3,12 @@
 
 
 int main() {
-    int numero, indice, *ponteiro, soma = 0;
+    int quantidade_num, indice, *ponteiro, soma = 0;
 
-    printf("Digite numero de elementos:\n");
-    scanf("%d", &numero);
+    printf("Digite quantidade de elementos:\n");
+    scanf("%d", &quantidade_num);
 
-    ponteiro = (int*) malloc(numero * sizeof(int));
+    ponteiro = (int*) malloc(quantidade_num * sizeof(int));
  
     // se momoria nao pode ser alocada
     if (ponteiro == NULL) {
@@ -17,7 +17,7 @@ int main() {
     }
 
     printf("Digite elementos:\n");
-    for (indice = 0; indice < numero; ++indice) {
+    for (indice = 0; indice < quantidade_num; ++indice) {
         scanf("%d", ponteiro + indice);
         soma += *(ponteiro + indice);
     }
@@ -31,7 +31,7 @@ int main() {
 }
 
 /* 
-Digite numero de elementos:
+Digite quantidade_num de elementos:
 4
 Digite elementos:
 10

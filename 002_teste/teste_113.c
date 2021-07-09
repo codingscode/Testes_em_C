@@ -2,7 +2,7 @@
 
 
 void adicionarUm(int *ponteiro) {
-    (*ponteiro)++; // adicionando 1  para *ponteiro
+    (*ponteiro)++; // adicionando 1 para *ponteiro
 }
 
 int main() {
