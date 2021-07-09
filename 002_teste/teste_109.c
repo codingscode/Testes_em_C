@@ -5,7 +5,7 @@ int main() {
    int vetor[4];
    int indice;
 
-   for (indice = 0; indice < 4; ++indice) {
+   for (indice = 0; indice < 4); ++indice) {
       printf("&vetor[%d] = %p\n", indice, &vetor[indice]);
    }
 
