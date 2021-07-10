@@ -5,7 +5,7 @@ int main() {
     int quantidade, indice;
     float numero[100], soma = 0.0, media;
 
-    printf("Digite os numeros de elementos:\n");
+    printf("Digite a quantidade de elementos:\n");
     scanf("%d", &quantidade);
 
     while (quantidade > 100 || quantidade < 1) {
@@ -26,7 +26,7 @@ int main() {
 }
 
 /* 
-Digite os numeros de elementos:
+Digite a quantidade de elementos:
 3
 1. Digite numero:
 12
