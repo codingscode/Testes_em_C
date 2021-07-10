@@ -12,7 +12,7 @@ int main() {
     printf("Enderecos de memoria previamente alocados:\n");
 
     for (indice = 0; indice < numero1; ++indice)
-         printf("%u\n", ponteiro + indice);
+         printf("%u\n", ponteiro); 
 
     printf("\nDigite o novo tamanho:\n");
     scanf("%d", &numero2);
@@ -22,7 +22,7 @@ int main() {
 
     printf("Enderecos de memoria recem-alocada:\n");
     for (indice = 0; indice < numero2; ++indice)
-         printf("%u\n", ponteiro + indice);
+         printf("%u\n", ponteiro); 
   
     free(ponteiro);
 
@@ -33,18 +33,18 @@ int main() {
 Digite tamanho:
 4
 Enderecos de memoria previamente alocados:
-11998304
-11998308
-11998312
-11998316
+10294368
+10294368
+10294368
+10294368
 
 Digite o novo tamanho:
 6
 Enderecos de memoria recem-alocada:
-11998304
-11998308
-11998312
-11998316
-11998320
-11998324
+10294368
+10294368
+10294368
+10294368
+10294368
+10294368
 */
