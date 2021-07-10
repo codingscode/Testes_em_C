@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+
 int main() {
     int quantidade, indice, *ponteiro, soma = 0;
 
@@ -13,7 +14,7 @@ int main() {
         exit(0);
     }
 
-    printf("Digite elements:\n");
+    printf("Digite elementos:\n");
     for (indice = 0; indice < quantidade; ++indice) {
         scanf("%d", ponteiro + indice);
         soma += *(ponteiro + indice);
@@ -27,7 +28,7 @@ int main() {
 /* 
 Digite quantidade de elementos:
 3
-Digite elements:
+Digite elementos:
 8
 3
 12

@@ -10,7 +10,7 @@ int main() {
 
     ponteiro = (int*) malloc(quantidade_num * sizeof(int));
  
-    // se momoria nao pode ser alocada
+    // se memoria nao pode ser alocada
     if (ponteiro == NULL) {
         printf("Erro! memoria nao alocada.");
         exit(0);
@@ -31,7 +31,7 @@ int main() {
 }
 
 /* 
-Digite quantidade_num de elementos:
+Digite quantidade de elementos:
 4
 Digite elementos:
 10
