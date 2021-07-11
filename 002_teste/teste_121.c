@@ -14,11 +14,8 @@ void receberElementosMatriz(int matriz[][10], int linha, int coluna) {
    }
 }
 
-void multiplicarMatrizes(int primeiro[][10],
-                      int segundo[][10],
-                      int resultado[][10],
-                      int linha1, int coluna1, int linha2, int coluna2) {
-
+void multiplicarMatrizes(int primeiro[][10], int segundo[][10], int resultado[][10], int linha1,
+                           int coluna1, int linha2, int coluna2) {
    // inicializando elementos de matriz em 0
    for (int i = 0; i < linha1; ++i) {
       for (int j = 0; j < coluna2; ++j) {

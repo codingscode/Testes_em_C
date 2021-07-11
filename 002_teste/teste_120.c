@@ -3,6 +3,7 @@
 
 int main() {
   int quant_linhas, quant_colunas, matriz_a[100][100], matriz_b[100][100], soma[100][100], i, j;
+
   printf("Digite a quantidade de linhas(entre 1 e 100):\n");
   scanf("%d", &quant_linhas);
   printf("Digite a quantidade de colunas (entre 1 e 100):\n");
@@ -10,23 +11,23 @@ int main() {
 
   printf("\nDigite elementos da primeira matriz:\n");
   for (i = 0; i < quant_linhas; ++i)
-    for (j = 0; j < quant_colunas; ++j) {
-      printf("Digite elemento matriz_a(%dx%d): ", i + 1, j + 1);
-      scanf("%d", &matriz_a[i][j]);
-    }
+     for (j = 0; j < quant_colunas; ++j) {
+       printf("Digite elemento matriz_a(%dx%d): ", i + 1, j + 1);
+       scanf("%d", &matriz_a[i][j]);
+     }
 
   printf("Digite elementos da segunda matriz:\n");
   for (i = 0; i < quant_linhas; ++i)
-    for (j = 0; j < quant_colunas; ++j) {
-      printf("Digite elemento matriz_b(%dx%d): ", i + 1, j + 1);
-      scanf("%d", &matriz_b[i][j]);
-    }
+     for (j = 0; j < quant_colunas; ++j) {
+       printf("Digite elemento matriz_b(%dx%d): ", i + 1, j + 1);
+       scanf("%d", &matriz_b[i][j]);
+     }
 
   // adicionando duas matrizes
   for (i = 0; i < quant_linhas; ++i)
-    for (j = 0; j < quant_colunas; ++j) {
-      soma[i][j] = matriz_a[i][j] + matriz_b[i][j];
-    }
+     for (j = 0; j < quant_colunas; ++j) {
+       soma[i][j] = matriz_a[i][j] + matriz_b[i][j];
+     }
 
   // imprimindo o resultado
   printf("\nSoma das duas matrizes:\n");
