@@ -14,9 +14,9 @@ strupr()  ->  converts string to uppercase
 int main() {
     char nome[30];
     printf("Digite o nome:\n");
-    gets(nome);     // funcao para ler string recebida
+    gets(nome);   // funcao para ler string recebida
     printf("Nome: ");
-    puts(nome);    // funcao para mostrar string.
+    puts(nome);  // funcao para mostrar string.
     return 0;
 }
 
@@ -24,4 +24,10 @@ int main() {
 Digite o nome:
 michael jackson
 Nome: michael jackson
+
+ou
+
+Digite o nome:
+a pipa eh azul
+Nome: a pipa eh azul
 */
