@@ -6,7 +6,7 @@ int main() {
     printf("Digite nome:\n");
     fgets(nome, sizeof(nome), stdin);  // ler string
     printf("Nome: ");
-    puts(nome);    // mostra string
+    puts(nome);  // mostra string
     return 0;
 }
 

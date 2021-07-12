@@ -8,6 +8,7 @@ int main() {
     printf("Digitar string: ");
     fgets(minha_string, sizeof(minha_string), stdin);             
     mostrarString(minha_string);     // Passando string a uma funcao    
+    
     return 0;
 }
 
@@ -19,4 +20,9 @@ void mostrarString(char str[]) {
 /* 
 Digitar string: michael jackson
 String saida: michael jackson
+
+ou
+
+Digitar string: o menino ouvio: o rato roeu a roupa do rei de roma.
+String saida: o menino ouvio: o rato roeu a roupa do rei de rom
 */
