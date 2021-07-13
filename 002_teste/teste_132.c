@@ -16,11 +16,14 @@ int main() {
             linha[i] == 'E' || linha[i] == 'I' || linha[i] == 'O' ||
             linha[i] == 'U' || linha[i] == 'y' || linha[i] == 'Y' ) {
             ++vogais;
-        } else if ((linha[i] >= 'a' && linha[i] <= 'z') || (linha[i] >= 'A' && linha[i] <= 'Z')) {
+        }
+        else if ((linha[i] >= 'a' && linha[i] <= 'z') || (linha[i] >= 'A' && linha[i] <= 'Z')) {
             ++consoante;
-        } else if (linha[i] >= '0' && linha[i] <= '9') {
+        }
+        else if (linha[i] >= '0' && linha[i] <= '9') {
             ++digito;
-        } else if (linha[i] == ' ') {
+        }
+        else if (linha[i] == ' ') {
             ++espaco;
         }
     }
@@ -39,4 +42,13 @@ Vogais: 12
 Consoantes: 14
 Digitos: 1
 Espacos em branco: 6
+
+ou
+
+Digite uma linha de string:
+o rato roeu a roupa do rei de roma
+Vogais: 16
+Consoantes: 10
+Digitos: 0
+Espacos em branco: 8
 */
