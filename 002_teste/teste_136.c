@@ -12,7 +12,7 @@ int main() {
     }
 
     minha_string2[indice] = '\0';
-    printf("String minha_string2: \n %s", minha_string2);
+    printf("String minha_string2: \n%s", minha_string2);
     return 0;
 }
 
@@ -20,5 +20,5 @@ int main() {
 Digite a string minha_string1:
 michael jackson
 String minha_string2:
- michael jackson
+michael jackson
 */
