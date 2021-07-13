@@ -16,7 +16,7 @@ int main() {
          for (j = i; linha[j] != '\0'; ++j) {
 
             // se jth elemento de linha nao eh uma letra,
-            // atribua o valor de elemento (j+1)th ao elemento jth
+            // atribua o valor de elemento (j + 1)th ao elemento jth
             linha[j] = linha[j + 1];
          }
          linha[j] = '\0';
