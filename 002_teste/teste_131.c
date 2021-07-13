@@ -26,4 +26,12 @@ borboleta em cima da folha
 Digite um caractere para encontrar sua frequencia:
 o
 Frequencia de o = 3
+
+ou
+
+Digite uma string:
+o rato roeu a roupa do rei de roma
+Digite um caractere para encontrar sua frequencia:
+o
+Frequencia de o = 6
 */
