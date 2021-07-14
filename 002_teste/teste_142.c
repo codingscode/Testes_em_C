@@ -22,7 +22,6 @@ int main() {
    scanf("%d", &s1.idade);
 
    mostrar(s1); // passando struct como um argumento
-
    return 0;
 }
 

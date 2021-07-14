@@ -25,7 +25,7 @@ int main() {
        // ponteiro->nome e ponteiro->idade eh usado
 
        // para acessar membros da segunda  struct pessoa,
-       // (ponteiro+1)->nome e (ponteiro+1)->idade eh usado
+       // (ponteiro + 1)->nome e (ponteiro + 1)->idade eh usado
        scanf("%s %d", (ponteiro + i)->nome, &(ponteiro + i)->idade);
    }
 
@@ -40,11 +40,14 @@ int main() {
 Digite a quantidade de pessoas:
 3
 Digite o primeiro nome e idade respectivamente:
-michael_jackson 49
+michael_jackson
+49
 Digite o primeiro nome e idade respectivamente:
-mick_jagger 90
+mick_jagger
+90
 Digite o primeiro nome e idade respectivamente:
-stevie_wonder 50
+stevie_wonder
+50
 Mostrando Informacao:
 Nome: michael_jackson   Idade: 49
 Nome: mick_jagger       Idade: 90
