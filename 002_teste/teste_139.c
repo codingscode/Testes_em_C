@@ -15,7 +15,7 @@ int main() {
 
     printf("Digite polegada: ");
     scanf("%f", &dist1.polegada);
-    printf("2nd distance\n");
+    printf("segunda distancia\n");
 
     printf("Digite pe: ");
     scanf("%d", &dist2.pe);
@@ -31,7 +31,7 @@ int main() {
     // mudando para pe se polegada eh maior que 12
     while (soma.polegada >= 12) {
         ++soma.pe;
-        soma.polegada = soma.polegada - 12;
+        soma.polegada =- 12;
     }
 
     printf("Soma de distancias = %d\'-%.1f\"", soma.pe, soma.polegada);
@@ -42,7 +42,7 @@ int main() {
 Primeira distancia:
 Digite em pe: 12
 Digite polegada: 7.9
-2nd distance
+segunda distancia
 Digite pe: 2
 Digite polegada: 9.8
 Soma de distancias = 15'-5.7"
@@ -52,7 +52,7 @@ ou
 Primeira distancia:
 Digite em pe: 3
 Digite polegada: 8
-2nd distance
+segunda distancia
 Digite pe: 9
 Digite polegada: 1
 Soma de distancias = 12'-9.0"

@@ -16,7 +16,7 @@ int main() {
     printf("Digite peso:\n");
     scanf("%f", &ponteiroPessoa->peso);
 
-    printf("Mostrando:\n");
+    printf("\nMostrando:\n");
     printf("Idade: %d\n", ponteiroPessoa->idade);
     printf("Peso: %f", ponteiroPessoa->peso);
 
