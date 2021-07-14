@@ -15,22 +15,22 @@ int main() {
     s = acessarInformacao();
 
     printf("\nMostrando informacao:\n");
-    printf("Nome: %s", s.nome);
-    printf("\nIdade: %d", s.idade);
+    printf("Nome: %s\n", s.nome);
+    printf("Idade: %d", s.idade);
     
     return 0;
 }
 
 struct estudante acessarInformacao() {
-  struct estudante s1;
+    struct estudante s1;
 
-  printf("Digitar nome:\n");
-  scanf ("%[^\n]%*c", s1.nome);
+    printf("Digitar nome:\n");
+    scanf ("%[^\n]%*c", s1.nome);
 
-  printf("Digitar idade:\n");
-  scanf("%d", &s1.idade);
-  
-  return s1;
+    printf("Digitar idade:\n");
+    scanf("%d", &s1.idade);
+    
+    return s1;
 }	
 
 /* 
