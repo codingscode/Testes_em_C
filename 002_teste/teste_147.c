@@ -17,10 +17,9 @@ int main() {
     printf("Digite marcas:\n");
     scanf("%f", &s.marcas);
 
-    printf("Mostrando Informacao:\n");
-    printf("Nome: ");
-    printf("%s", s.nome);
-    printf("\nNumero da lista: %d\n", s.num_lista);
+    printf("\nMostrando Informacao:\n");
+    printf("Nome: %s", s.nome);
+    printf("Numero da lista: %d\n", s.num_lista);
     printf("Marcas: %.1f\n", s.marcas);
 
     return 0;
@@ -34,9 +33,9 @@ Digite numero da lista:
 356
 Digite marcas:
 4.5
+
 Mostrando Informacao:
 Nome: michael
-
 Numero da lista: 356
 Marcas: 4.5
 */

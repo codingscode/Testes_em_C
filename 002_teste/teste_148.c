@@ -27,7 +27,7 @@ int main() {
 
    // converter polegadas para pe se maior que 12
    while (resultado.polegada >= 12.0) {
-      resultado.polegada = resultado.polegada - 12.0;
+      resultado.polegada =- 12.0;
       ++resultado.pe;
    }
    printf("\nSoma de distancias = %d\'-%.1f\"", resultado.pe, resultado.polegada);
