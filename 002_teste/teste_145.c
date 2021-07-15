@@ -8,15 +8,15 @@ union trabalhoUniao {
    int trabalhador;
 } trabUniao;
 
-struct structJob {
+struct structTrabalho {
    char nome[32];
    float salario;
    int trabalhador;
 } sTrabalho;
 
 int main() {
-   printf("tamanho de union = %d bytes", sizeof(trabUniao));
-   printf("\ntamanho de structure = %d bytes", sizeof(sTrabalho));
+   printf("tamanho de union = %d bytes\n", sizeof(trabUniao));
+   printf("tamanho de structure = %d bytes", sizeof(sTrabalho));
    return 0;
 }
 
