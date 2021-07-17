@@ -11,7 +11,7 @@ int main() {
     int i;
     printf("Digite informacoes sobre estudantes:\n");
 
-    // storing information
+    // armazenando informacao
     for (i = 0; i < 3; ++i) {
         e[i].lista = i + 1;
         printf("\nPara numero lista%d,\n", e[i].lista);

@@ -13,11 +13,11 @@ int main() {
    struct Momento mInicio, mParada, diferenca;
 
    printf("Digite o momento de inicio.\n");
-   printf("Digite horas, minutos e segundos: ");
+   printf("Digite horas, minutos e segundos:\n");
    scanf("%d %d %d", &mInicio.horas, &mInicio.minutos, &mInicio.segundos);
 
    printf("Digite o momento de parada.\n");
-   printf("Digite horas, minutos e segundos: ");
+   printf("Digite horas, minutos e segundos:\n");
    scanf("%d %d %d", &mParada.horas, &mParada.minutos, &mParada.segundos);
 
    // diferenca entre momento de inicio e parada
@@ -45,9 +45,15 @@ void diferencaEntreMomentos(struct Momento inicio, struct Momento parada, struct
 
 /* 
 Digite o momento de inicio.
-Digite horas, minutos e segundos: 8 12 43
+Digite horas, minutos e segundos:
+8
+12
+43
 Digite o momento de parada.
-Digite horas, minutos e segundos: 14 7 32
+Digite horas, minutos e segundos:
+14
+7
+32
 
 Diferenca de tempo: 8:12:43 - 14:7:32 = -6:5:11
 */
