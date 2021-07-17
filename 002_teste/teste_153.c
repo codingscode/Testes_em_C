@@ -16,7 +16,6 @@ wb+ ->	Open for both reading and writing in binary mode.	-> If the file exists, 
 a+	 ->   Open for both reading and appending.  ->	If the file does not exist, it will be created.
 ab+ ->	Open for both reading and appending in binary mode. ->	If the file does not exist, it will be created.
 */
-
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -26,7 +25,7 @@ int main() {
    FILE *fponteiro;
 
    // use locacao apropriada se vc esta usando MacOS ou Linux
-   fponteiro = fopen("./teste_153_arquivo.txt","w");
+   fponteiro = fopen("./teste_153_arquivo.txt", "w");
 
    if (fponteiro == NULL) {
       printf("Erro!");   
@@ -34,9 +33,9 @@ int main() {
    }
 
    printf("Digite um numero:\n");
-   scanf("%d",&numero);
+   scanf("%d", &numero);
 
-   fprintf(fponteiro,"%d",numero);
+   fprintf(fponteiro,"o que tah sendo escrito: %d", numero);
    fclose(fponteiro);
 
    return 0;
@@ -44,6 +43,6 @@ int main() {
 
 /* 
 Digite um numero:
-5
+18
 */
 /*  o arquivo teste_153_arquivo.txt eh escrito  */
