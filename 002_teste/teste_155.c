@@ -11,7 +11,7 @@ int main() {
    struct numArvore numero;
    FILE *fponteiro;
 
-   if ((fponteiro = fopen("./teste_155_arquivo.bin","wb")) == NULL) {
+   if ((fponteiro = fopen("./teste_155_arquivo.bin", "wb")) == NULL) {
        printf("Erro! abrindo arquivo");
 
        // Programa sai se o ponteiro do arquivo retorna NULL
