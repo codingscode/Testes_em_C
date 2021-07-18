@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 
-enum semana {Domingo, Segunda, Terca, Quarta, Quinta, Sexta, Sabado};
+enum semana { Domingo, Segunda, Terca, Quarta, Quinta, Sexta, Sabado };
 
 int main() {
     // criando variavel hoje de tipo enum semana
