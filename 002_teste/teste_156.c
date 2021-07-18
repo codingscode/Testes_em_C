@@ -11,7 +11,7 @@ int main() {
    struct tresNumeros num;
    FILE *ponteiro_arquivo;
 
-   if ((ponteiro_arquivo = fopen("./teste_156_arquivo.bin","rb")) == NULL){
+   if ((ponteiro_arquivo = fopen("./teste_156_arquivo.bin", "rb")) == NULL){
        printf("Erro! abrindo arquivo");
 
        // Programa sai se o apontador de arquivo retorna NULL
@@ -20,7 +20,7 @@ int main() {
 
    for (numero = 1; numero < 5; ++numero) {
       fread(&num, sizeof(struct tresNumeros), 1, ponteiro_arquivo); 
-      printf("n1: %d\tn2: %d\tn3: %d", num.n1, num.n2, num.n3);
+      printf("n1: %d\tn2: %d\tn3: %d\n", num.n1, num.n2, num.n3);
    }
    fclose(ponteiro_arquivo); 
   
@@ -28,8 +28,8 @@ int main() {
 }
 
 /* 
-n1: 941629491   n2: 808591392   n3: 97n1: 941629491     n2: 808591392   n3: 97n1: 941629491     n2: 808591392   n3: 97n1: 941629491     n2: 808591392   n3: 97
+n1: 940182835   n2: 808585741   n3: 97
+n1: 940182835   n2: 808585741   n3: 97
+n1: 940182835   n2: 808585741   n3: 97
+n1: 940182835   n2: 808585741   n3: 97
 */
-
-
-

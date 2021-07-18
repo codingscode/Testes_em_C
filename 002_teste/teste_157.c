@@ -11,7 +11,7 @@ int main() {
    struct tres_numeros num;
    FILE *ponteiro_arquivo;
 
-   if ((ponteiro_arquivo = fopen("./teste_157_arquivo.bin","rb")) == NULL) {
+   if ((ponteiro_arquivo = fopen("./teste_157_arquivo.bin", "rb")) == NULL) {
        printf("Erro! abrindo arquivo");
 
        // programa sai se o ponteiro arquivo retorna NULL
