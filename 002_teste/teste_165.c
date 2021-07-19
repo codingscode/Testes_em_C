@@ -1,9 +1,7 @@
 #include <stdio.h>
 
-
 #define PI 3.1415
-#define areaCirculo(r) (PI*pow(r, 2))
-
+#define areaCirculo(r) (PI * pow(r, 2))
 
 int main() {
     float raio, area;
