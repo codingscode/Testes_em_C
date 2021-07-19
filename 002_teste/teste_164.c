@@ -8,7 +8,7 @@ int main() {
     scanf("%f", &raio);
 
     // note o uso de PI
-    area = PI*pow(raio, 2);
+    area = PI * pow(raio, 2);
 
     printf("Area = %.2f", area);
     return 0;

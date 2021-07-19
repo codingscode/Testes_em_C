@@ -9,14 +9,11 @@ enum estilo {
 
 int main() {
 	int meu_estilo = NEGRITO | SUBLINHADO; 
-
-        //    00000001
-        //  | 00000100
-        //  ___________
-        //    00000101
-
+    //    00000001
+    //  | 00000100
+    //  ___________
+    //    00000101
 	printf("%d", meu_estilo);
-
 	return 0;
 }
 
