@@ -3,6 +3,7 @@
 
 int main() {
     double valor_a, valor_b;
+
     printf("Digite valor_a:\n");
     scanf("%lf", &valor_a);
     printf("Digite valor_b:\n");
@@ -10,13 +11,13 @@ int main() {
 
     // trocando
 
-   // valor_a = (inicial_a - inicial_b)
-    valor_a = valor_a - valor_b;   
+    // valor_a = (inicial_a - inicial_b)
+    valor_a -= valor_b;  // valor_a = valor_a - valor_b;
 
-   // valor_b = (inicial_a - inicial_b) + inicial_b = inicial_a
-    valor_b = valor_a + valor_b;
+    // valor_b = (inicial_a - inicial_b) + inicial_b = inicial_a
+    valor_b += valor_a;  // valor_b = valor_a + valor_b;
 
-   // valor_a = inicial_a - (inicial_a - inicial_b) = inicial_b
+    // valor_a = inicial_a - (inicial_a - inicial_b) = inicial_b
     valor_a = valor_b - valor_a;
 
     // %.2lf mostra numero acima de 2 pontos decimal
