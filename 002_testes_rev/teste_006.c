@@ -3,6 +3,7 @@
 
 int main() {
     int dividendo, divisor, quociente, resto;
+
     printf("Digite dividendo:\n");
     scanf("%d", &dividendo);
     printf("Digite divisor:\n");

@@ -8,7 +8,7 @@ int main() {
  
     produto = numero1 * numero2;
 
-    printf("Produto = %.3lf", produto);
+    printf("Produto = %.3lf", produto);  // 3 casas decimais
     
     return 0;
 }
