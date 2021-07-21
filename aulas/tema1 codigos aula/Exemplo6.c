@@ -1,16 +1,17 @@
 #include <stdio.h>
 #include <conio.h>
 
+
 int main(void) {
     /*Criando a struct */
-	struct ficha_de_aluno 	{
+	struct ficha_de_aluno {
 		char nome[50];
 		char disciplina[30];
 		float nota_prova1;
     	float nota_prova2;
 	};     
 	
-	/*Criando a variável aluno que será do tipo struct ficha_de_aluno */
+	/*Criando a variavel aluno que sera do tipo struct ficha_de_aluno */
     struct ficha_de_aluno aluno;
 	printf("\n---------- Cadastro de aluno -----------\n\n\n");      
 	printf("Nome do aluno ......: ");
@@ -49,4 +50,3 @@ Disciplina .....: matematica
 Nota da Prova 1 ...: 10.00
 Nota da Prova 2 ...: 7.50
 */
-
