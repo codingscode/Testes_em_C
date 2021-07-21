@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+
 struct departamento {
 	int cod;
 	char descricao[30];
@@ -24,6 +25,4 @@ struct funcionario Funcionario;
 int main(void) {
     
 }
-
-
 
