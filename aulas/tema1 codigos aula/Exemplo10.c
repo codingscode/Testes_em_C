@@ -3,6 +3,7 @@
 #include <string.h>
 #include <locale.h>
  
+
 typedef struct {
     int dia;
     int mes;
@@ -26,42 +27,40 @@ int main() {
     aluno.datNasc.dia = 0;
     aluno.datNasc.mes = 0;
     aluno.datNasc.ano = 0;
-    printf(" \n O código do aluno é: %d ", aluno.codigo);
-    printf(" \n O nome do aluno é: %s ", aluno.nome);
-    printf(" \n A data de nascimento do aluno é: %d / %d / %d ", aluno.datNasc.dia, aluno.datNasc.mes, aluno.datNasc.ano);
-    printf(" \n \n");
-    printf(" Digite o código do aluno: ");
+    printf("\nO codigo do aluno eh: %d ", aluno.codigo);
+    printf("\nO nome do aluno eh: %s ", aluno.nome);
+    printf("\nA data de nascimento do aluno eh: %d / %d / %d ", aluno.datNasc.dia, aluno.datNasc.mes, aluno.datNasc.ano);
+    printf("\n \n");
+    printf("Digite o codigo do aluno: ");
     scanf("%d%*c", &aluno.codigo);
-    printf(" Digite o nome do aluno: ");
+    printf("Digite o nome do aluno: ");
     scanf("%s%*c", &aluno.nome);
-    printf(" Digite o dia do nascimento do aluno: ");
+    printf("Digite o dia do nascimento do aluno: ");
     scanf("%d%*c", &aluno.datNasc.dia);
-    printf(" Digite o mês do nascimento do aluno: ");
+    printf("Digite o mes do nascimento do aluno: ");
     scanf("%d%*c", &aluno.datNasc.mes);
-    printf(" Digite o ano do nascimento do aluno: ");
+    printf("Digite o ano do nascimento do aluno: ");
     scanf("%d%*c", &aluno.datNasc.ano);
-    printf(" \n O código do aluno é: %d ", aluno.codigo);
-    printf(" \n O nome do aluno é: %s ", aluno.nome);
-    printf(" \n A data de nascimento do aluno é: %d / %d / %d ", aluno.datNasc.dia, aluno.datNasc.mes, aluno.datNasc.ano);
-    printf(" \n \n");
+    printf("\nO codigo do aluno eh: %d ", aluno.codigo);
+    printf("\nO nome do aluno eh: %s ", aluno.nome);
+    printf("\nA data de nascimento do aluno eh: %d / %d / %d ", aluno.datNasc.dia, aluno.datNasc.mes, aluno.datNasc.ano);
+    printf("\n\n");
     system("pause");
     return(0);
 }
 
 /*
- O código do aluno é: 0
- O nome do aluno é: NULL
- A data de nascimento do aluno é: 0 / 0 / 0
+O codigo do aluno eh: 0
+O nome do aluno eh: NULL
+A data de nascimento do aluno eh: 0 / 0 / 0
 
- Digite o código do aluno: 123
- Digite o nome do aluno: bob
- Digite o dia do nascimento do aluno: 9
- Digite o mês do nascimento do aluno: 11
- Digite o ano do nascimento do aluno: 2013
+Digite o codigo do aluno: 123
+Digite o nome do aluno: bob
+Digite o dia do nascimento do aluno: 9
+Digite o mes do nascimento do aluno: 11
+Digite o ano do nascimento do aluno: 2013
 
- O código do aluno é: 123
- O nome do aluno é: bob
- A data de nascimento do aluno é: 9 / 11 / 2013
-
+O codigo do aluno eh: 123
+O nome do aluno eh: bob
+A data de nascimento do aluno eh: 9 / 11 / 2013
 */
-

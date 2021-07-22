@@ -3,6 +3,7 @@
 #include <string.h>
 #include <locale.h>
  
+
 typedef struct {
     int dia;
     int mes;
@@ -16,11 +17,12 @@ typedef struct {
 } Aluno;
  
 Aluno aluno[5];
-int i=0;
+int i = 0;
  
 int main() {
     setlocale(LC_ALL,"portuguese");
-    for(i=0; i<5; i++) {
+
+    for (i = 0; i < 5; i++) {
         aluno[i].codigo = 0;
         strcpy(aluno[i].nome, "NULL");
         aluno[i].datNasc.dia = 0;
@@ -28,39 +30,37 @@ int main() {
         aluno[i].datNasc.ano = 0;
     }
  
-    for(i=0; i<5; i++) {
-        printf(" \n ======================================================================");
-        printf(" \n O c�digo do aluno �: %d ", aluno[i].codigo);
-        printf(" \n O nome do aluno �: %s ", aluno[i].nome);
-        printf(" \n A data de nascimento do aluno �: %d / %d / %d ", 
-             aluno[i].datNasc.dia, aluno[i].datNasc.mes, 
-             aluno[i].datNasc.ano);
-        printf(" \n ");
+    for (i = 0; i < 5; i++) {
+        printf("\n======================================================================");
+        printf("\nO codigo do aluno eh: %d ", aluno[i].codigo);
+        printf("\nO nome do aluno eh: %s ", aluno[i].nome);
+        printf("\nA data de nascimento do aluno eh: %d / %d / %d ", 
+             aluno[i].datNasc.dia, aluno[i].datNasc.mes, aluno[i].datNasc.ano);
+        printf("\n ");
     }
  
-    for(i=0; i<5; i++) {
-        printf(" \n ======================================================================");
-        printf(" \n ======================================================================");
-        printf(" \n Digite o c�digo do aluno: ");
+    for (i = 0; i < 5; i++) {
+        printf("\n======================================================================");
+        printf("\n======================================================================");
+        printf("\nDigite o codigo do aluno: ");
         scanf("%d%*c", &aluno[i].codigo);
-        printf(" \n Digite o nome do aluno: ");
+        printf("\nDigite o nome do aluno: ");
         scanf("%s%*c", &aluno[i].nome);
-        printf(" \n Digite o dia do nascimento do aluno: ");
+        printf("\nDigite o dia do nascimento do aluno: ");
         scanf("%d%*c", &aluno[i].datNasc.dia);
-        printf(" \n Digite o m�s do nascimento do aluno: ");
+        printf("\nDigite o mes do nascimento do aluno: ");
         scanf("%d%*c", &aluno[i].datNasc.mes);
-        printf(" \n Digite o ano do nascimento do aluno: ");
+        printf("\nDigite o ano do nascimento do aluno: ");
         scanf("%d%*c", &aluno[i].datNasc.ano);
     }
  
-    for(i=0; i<5; i++) {
-        printf(" \n ======================================================================");
-        printf(" \n O c�digo do aluno �: %d ", aluno[i].codigo);
-        printf(" \n O nome do aluno �: %s ", aluno[i].nome);
-        printf(" \n A data de nascimento do aluno �: %d / %d / %d ",
-            aluno[i].datNasc.dia, aluno[i].datNasc.mes,
-            aluno[i].datNasc.ano);
-        printf(" \n ");
+    for (i = 0; i < 5; i++) {
+        printf("\n======================================================================");
+        printf("\nO codigo do aluno eh: %d ", aluno[i].codigo);
+        printf("\nO nome do aluno eh: %s ", aluno[i].nome);
+        printf("\nA data de nascimento do aluno eh: %d / %d / %d ",
+            aluno[i].datNasc.dia, aluno[i].datNasc.mes, aluno[i].datNasc.ano);
+        printf("\n ");
     }
     system("pause");
     return(0);
