@@ -5,7 +5,7 @@
 void troca(int *x, int *y) {
     int aux;
 
-    if (x != NULL && y != NULL) { //se endere�os forem v�lidos
+    if (x != NULL && y != NULL) { //se enderecos forem validos
         aux = *x;                    //faz a troca
         *x = *y;
         *y = aux;
@@ -13,7 +13,8 @@ void troca(int *x, int *y) {
 }
 
 int main(){
-    int v1=5, v2=10;
+    int v1 = 5, v2 = 10;
+
     printf("v1 = %d e v2 = %d\n", v1, v2);
     troca(&v1, &v2);
     printf("v1 = %d e v2 = %d\n", v1, v2);
