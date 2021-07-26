@@ -1,21 +1,21 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-//Estrutura base do nó.
-struct node {
+
+//Estrutura base do no.
+struct no {
     int nData;
-    struct node *proximo;
+    struct no *proximo;
 };
  
- 
-//Funcao pra printar o nó na tela.
-void displayLL(struct node *p) {
-    printf("Mostrando a lista:\n"); 
+//Funcao pra printar o no na tela.
+void mostrarTudo(struct no *p) {
+    printf("Mostrando a lista:"); 
     
     if (p) {
         do {
             printf(" %d", p->nData);
-            p=p->proximo;
+            p = p->proximo;
         }
         while(p);
     }
@@ -23,34 +23,34 @@ void displayLL(struct node *p) {
         printf("Lista vazia.");
 }
   
+
 int main(void) {
-    struct node *pNode1 = NULL;
-    struct node *pNode2 = NULL;
-    struct node *pNode3 = NULL;
+    struct no *pNo1 = NULL;
+    struct no *pNo2 = NULL;
+    struct no *pNo3 = NULL;
      
     //Criando os nos e associando os dados.
-    pNode1 = (struct node*) malloc(sizeof(struct node*));
-    pNode1->nData = 10;
+    pNo1 = (struct no*) malloc(sizeof(struct no*));
+    pNo1->nData = 10;
      
-    pNode2 = (struct node*) malloc(sizeof(struct node*));
-    pNode2->nData = 20;
+    pNo2 = (struct no*) malloc(sizeof(struct no*));
+    pNo2->nData = 20;
      
-    pNode3 = (struct node*) malloc(sizeof(struct node*));
-    pNode3->nData = 30;
+    pNo3 = (struct no*) malloc(sizeof(struct no*));
+    pNo3->nData = 30;
      
-    //Conectando os nós
-    pNode1->proximo = pNode2;
-    pNode2->proximo = pNode3;  
-    pNode3->proximo = NULL;
+    //Conectando os nos
+    pNo1->proximo = pNo2;
+    pNo2->proximo = pNo3;  
+    pNo3->proximo = NULL;
      
     //Mostrando a lista.
-    if (pNode1)  
-        displayLL(pNode1);
+    if (pNo1)  
+        mostrarTudo(pNo1);
     
     return 0;
 }
 
 /*
-Mostrando a lista:
- 10 20 30
+Mostrando a lista: 10 20 30
 */
