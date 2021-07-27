@@ -53,7 +53,7 @@ int main(void) {
 }
 
 /*
-pNo1: 11539584
+pNo1: 1a1480
 Mostrando a lista:
 10
 20

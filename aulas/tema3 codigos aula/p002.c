@@ -10,7 +10,7 @@ int main() {
     printf("vetor[-1]: %d\n", vetor[-1]);
     printf("vetor[-2]: %d\n", vetor[-2]);
 
-    printf("%d", &vetor);
+    printf("%x", &vetor);
 
     return 0;
 }
@@ -20,6 +20,6 @@ vetor[0]: 8
 vetor[1]: 7
 vetor[-1]: 0
 vetor[-2]: 6480448
-6487552
+62fe00
 */
 
