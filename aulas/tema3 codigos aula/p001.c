@@ -10,14 +10,14 @@ struct no {
  
 //Funcao pra printar o no na tela.
 void mostrarTudo(struct no *p) {
-    printf("Mostrando a lista:"); 
+    printf("Mostrando a lista:\n"); 
     
     if (p) {
         do {
-            printf(" %d", p->nData);
+            printf("%d\n", p->nData);
             p = p->proximo;
         }
-        while(p);
+        while (p);
     }
     else
         printf("Lista vazia.");
@@ -45,12 +45,17 @@ int main(void) {
     pNo3->proximo = NULL;
      
     //Mostrando a lista.
-    if (pNo1)  
+    if (pNo1)
+        printf("pNo1: %d\n", pNo1);  
         mostrarTudo(pNo1);
     
     return 0;
 }
 
 /*
-Mostrando a lista: 10 20 30
+pNo1: 11539584
+Mostrando a lista:
+10
+20
+30
 */
