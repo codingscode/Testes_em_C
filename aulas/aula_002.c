@@ -15,7 +15,8 @@ int main(void) {
     printf("Utilizando ponteiros\n\n");
     printf("Conteudo da variavel v_num: %d\n", v_num);
     printf("Endereco da variavel v_num: %x \n", &v_num);
-    printf("Conteudo da variavel ponteiro ptr: %x", ptr);
+    printf("Conteudo da variavel ponteiro ptr: %x\n", ptr);
+    printf("Valor da variavel ponteiro ptr: %d", *ptr);
 
     getch();
     return 0;
@@ -27,4 +28,5 @@ Utilizando ponteiros
 Conteudo da variavel v_num: 10
 Endereco da variavel v_num: 62fe14
 Conteudo da variavel ponteiro ptr: 62fe14
+Valor da variavel ponteiro ptr: 10
 */
