@@ -5,35 +5,29 @@ void lerVet( int *p, int t ){
 
 	int i;
 
-	for ( i=0; i<t; i++ ){
+	for (i = 0; i < t; i++) {
 
-		printf("\tElemento da posicao %d? ",i);
-		scanf("%d",p);
+		printf("\tElemento da posicao %d? ", i);
+		scanf("%d", p);
 		p++;
-
-	}
-
+    }
 }
 
 void mostrarVet( int *p, int t ){
 
 	int i;
 
-	for ( i=0; i < t; i++ ){
+	for (i = 0; i < t; i++){
 
-		printf("\tPosicao %d: %d\n",i,*p);
+		printf("\tPosicao %d: %d\n", i, *p);
 		p++;
-
 	}
-
 }
 
 void trocar (int *pv, int x, int y ){
-
 		int aux = pv[x];
-		pv[x] =pv[y];
+		pv[x] = pv[y];
 		pv[y] = aux;
-
 }
 
 int divide( int *v, int inf, int sup ) {
@@ -44,17 +38,16 @@ int divide( int *v, int inf, int sup ) {
 	esq = inf;
 	dir = sup;
 
-	while ( esq < dir ) {
+	while (esq < dir) {
 
-		while ( v[esq] <= pivo  && esq < sup )
+		while (v[esq] <= pivo  && esq < sup)
 			esq++;
 
-		while ( v[dir] > pivo )
+		while (v[dir] > pivo)
 			dir--;
 
-		if ( esq < dir )
-			trocar(v,esq,dir);
-
+		if (esq < dir)
+			trocar(v, esq, dir);
 	}
 
 	v[inf] = v[dir];
@@ -66,13 +59,12 @@ void quickSort( int *p, int inf, int sup ) {
 
 	int posPivo; // posição do pivô
 
-	if ( inf >= sup )
+	if (inf >= sup)
 		return;
 
-	posPivo= divide(p,inf,sup);
-	quickSort(p,inf,posPivo-1);
-	quickSort(p,posPivo+1,sup);
-
+	posPivo= divide(p, inf, sup);
+	quickSort(p, inf, posPivo - 1);
+	quickSort(p, posPivo + 1, sup);
 }
 
 
@@ -81,7 +73,7 @@ void main(){
 	int *p, tam;
 
 	printf("Quantidade de elementos do vetor?");
-	scanf("%d",&tam);
+	scanf("%d", &tam);
 
 	p = (int*) malloc(tam * sizeof(int));
 
@@ -92,13 +84,12 @@ void main(){
 	mostrarVet(p, tam);
 
 	printf("\nOrdenando o vetor...\n");
-	quickSort(p, 0, tam-1);
+	quickSort(p, 0, tam - 1);
 
 	printf("\nConteudo do vetor ja ordenado:\n");
 	mostrarVet(p, tam);
 
 	free(p);
-
 }
 
 /* 

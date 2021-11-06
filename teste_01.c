@@ -11,6 +11,7 @@ int main() {
         printf("%d \n", i);
     }
 
+    printf("fim");
 
     return 0;
 }
